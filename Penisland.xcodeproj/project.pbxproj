@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5762B56D1CF2765B002CF248 /* instructions.html in Resources */ = {isa = PBXBuildFile; fileRef = 5762B56C1CF2765B002CF248 /* instructions.html */; };
+		5762B56F1CF27AFD002CF248 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */; };
+		57C9BAF81CF7EE9C00B11F01 /* TheListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */; };
+		57C9BAFA1CF7F03B00B11F01 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9BAF91CF7F03B00B11F01 /* Card.swift */; };
+		57C9BAFC1CF7F21600B11F01 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9BAFB1CF7F21600B11F01 /* CardManager.swift */; };
+		57D90E821CF2598C00410284 /* TheListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D90E811CF2598C00410284 /* TheListViewController.swift */; };
 		57ED4DE91CF24919008F1CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED4DE81CF24919008F1CD3 /* AppDelegate.swift */; };
 		57ED4DEB1CF24919008F1CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED4DEA1CF24919008F1CD3 /* ViewController.swift */; };
 		57ED4DEE1CF24919008F1CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED4DEC1CF24919008F1CD3 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5762B56C1CF2765B002CF248 /* instructions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = instructions.html; sourceTree = "<group>"; };
+		5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheListDetailViewController.swift; sourceTree = "<group>"; };
+		57C9BAF91CF7F03B00B11F01 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		57C9BAFB1CF7F21600B11F01 /* CardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		57D90E811CF2598C00410284 /* TheListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheListViewController.swift; sourceTree = "<group>"; };
 		57ED4DE51CF24919008F1CD3 /* Penisland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penisland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57ED4DE81CF24919008F1CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57ED4DEA1CF24919008F1CD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,8 +68,14 @@
 			children = (
 				57ED4DE81CF24919008F1CD3 /* AppDelegate.swift */,
 				57ED4DEA1CF24919008F1CD3 /* ViewController.swift */,
+				5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */,
+				57D90E811CF2598C00410284 /* TheListViewController.swift */,
+				57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */,
 				57ED4DEC1CF24919008F1CD3 /* Main.storyboard */,
 				57ED4DEF1CF24919008F1CD3 /* Assets.xcassets */,
+				5762B56C1CF2765B002CF248 /* instructions.html */,
+				57C9BAF91CF7F03B00B11F01 /* Card.swift */,
+				57C9BAFB1CF7F21600B11F01 /* CardManager.swift */,
 				57ED4DF11CF24919008F1CD3 /* LaunchScreen.storyboard */,
 				57ED4DF41CF24919008F1CD3 /* Info.plist */,
 			);
@@ -124,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57ED4DF31CF24919008F1CD3 /* LaunchScreen.storyboard in Resources */,
+				5762B56D1CF2765B002CF248 /* instructions.html in Resources */,
 				57ED4DF01CF24919008F1CD3 /* Assets.xcassets in Resources */,
 				57ED4DEE1CF24919008F1CD3 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				57ED4DEB1CF24919008F1CD3 /* ViewController.swift in Sources */,
+				57C9BAFA1CF7F03B00B11F01 /* Card.swift in Sources */,
+				57C9BAF81CF7EE9C00B11F01 /* TheListDetailViewController.swift in Sources */,
+				57C9BAFC1CF7F21600B11F01 /* CardManager.swift in Sources */,
 				57ED4DE91CF24919008F1CD3 /* AppDelegate.swift in Sources */,
+				5762B56F1CF27AFD002CF248 /* InstructionsViewController.swift in Sources */,
+				57D90E821CF2598C00410284 /* TheListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +274,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Penisland/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.Penisland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -261,10 +289,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Penisland/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.Penisland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -287,6 +319,7 @@
 				57ED4DF91CF24919008F1CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
