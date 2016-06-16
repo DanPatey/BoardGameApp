@@ -31,10 +31,28 @@
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAR-iu-3Sb" userLabel="Instructions">
                                                 <rect key="frame" x="20" y="392" width="560" height="48"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="JnB-M9-CID"/>
+                                                    <constraint firstAttribute="height" constant="200" id="aGS-YP-yZd">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="120"/>
+                                                    </constraint>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="Instructions">
                                                     <color key="titleColor" red="0.1137254902" green="0.41568627450000001" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="JnB-M9-CID"/>
+                                                        <exclude reference="aGS-YP-yZd"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <mask key="constraints">
+                                                        <exclude reference="JnB-M9-CID"/>
+                                                        <include reference="aGS-YP-yZd"/>
+                                                    </mask>
+                                                </variation>
                                                 <connections>
                                                     <segue destination="emk-k8-Fq8" kind="presentation" id="IzJ-Ch-BOs"/>
                                                 </connections>
@@ -42,10 +60,23 @@
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXY-Yz-jfg" userLabel="Start Game">
                                                 <rect key="frame" x="20" y="329" width="560" height="48"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="Cq2-RZ-XZh"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <state key="normal" title="Start Game">
                                                     <color key="titleColor" red="0.1137254902" green="0.41568627450000001" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="Cq2-RZ-XZh"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <mask key="constraints">
+                                                        <include reference="Cq2-RZ-XZh"/>
+                                                    </mask>
+                                                </variation>
                                                 <connections>
                                                     <segue destination="UPb-I2-KM6" kind="presentation" id="JZT-8q-vZI"/>
                                                 </connections>
@@ -54,7 +85,7 @@
                                         <color key="backgroundColor" red="0.58823529411764708" green="0.95294117647058818" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="DAR-iu-3Sb" firstAttribute="top" secondItem="YXY-Yz-jfg" secondAttribute="bottom" constant="20" id="0WH-wl-oGD"/>
-                                            <constraint firstItem="CXa-cY-qcb" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="YXY-Yz-jfg" secondAttribute="top" multiplier="0.9" id="3Li-hE-DpL"/>
+                                            <constraint firstItem="CXa-cY-qcb" firstAttribute="bottom" secondItem="YXY-Yz-jfg" secondAttribute="top" multiplier="0.9" id="3Li-hE-DpL"/>
                                             <constraint firstItem="DAR-iu-3Sb" firstAttribute="width" secondItem="YXY-Yz-jfg" secondAttribute="width" id="8qU-ur-KPq"/>
                                             <constraint firstItem="YXY-Yz-jfg" firstAttribute="top" secondItem="CXa-cY-qcb" secondAttribute="bottom" constant="20" id="A7z-eW-wcf"/>
                                             <constraint firstItem="DAR-iu-3Sb" firstAttribute="top" secondItem="YXY-Yz-jfg" secondAttribute="bottom" constant="20" id="Jsx-dF-6NZ"/>
@@ -172,6 +203,10 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                     <rect key="frame" x="30" y="64" width="340" height="398"/>
                                 </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                    <rect key="frame" x="30" y="64" width="740" height="183.5"/>
+                                </variation>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbh-73-iHA">
                                 <rect key="frame" x="40" y="359" width="520" height="30"/>
@@ -186,6 +221,9 @@
                                 </variation>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="40" y="462" width="320" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="40" y="287.5" width="720" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="showAlert" destination="Vhz-3s-Qv0" eventType="touchUpInside" id="Hfw-RQ-HIe"/>
