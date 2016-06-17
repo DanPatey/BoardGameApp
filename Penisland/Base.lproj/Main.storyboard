@@ -205,6 +205,9 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                     <rect key="frame" x="30" y="64" width="340" height="398"/>
                                 </variation>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="30" y="209" width="740" height="184"/>
+                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 </variation>
@@ -225,6 +228,9 @@
                                 </variation>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="40" y="462" width="320" height="30"/>
+                                </variation>
+                                <variation key="widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="40" y="433" width="720" height="42"/>
                                 </variation>
                                 <connections>
                                     <action selector="showAlert" destination="Vhz-3s-Qv0" eventType="touchUpInside" id="Hfw-RQ-HIe"/>
@@ -379,7 +385,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Amc-RV-HAv"/>
-        <segue reference="JZT-8q-vZI"/>
+        <segue reference="069-mI-HFl"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1019607843" green="0.3411764706" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
 </document>
