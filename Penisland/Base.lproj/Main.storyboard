@@ -34,7 +34,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="JnB-M9-CID"/>
                                                     <constraint firstAttribute="height" constant="200" id="aGS-YP-yZd">
-                                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
                                                     </constraint>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -62,7 +62,7 @@
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="Cq2-RZ-XZh">
-                                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
                                                     </constraint>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -379,7 +379,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Amc-RV-HAv"/>
-        <segue reference="069-mI-HFl"/>
+        <segue reference="JZT-8q-vZI"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1019607843" green="0.3411764706" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
 </document>
