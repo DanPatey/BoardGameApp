@@ -38,26 +38,71 @@ class CardManager: NSObject {
             "Everyone is \"Your Honor\"",
             "Everyone is a Little Rascal (Alfalfa, Spanky, Darla, Porky, Froggy, Uh-huh, Waldo, Buckwheat)"])
     
-    static let card3 = Card(title: "3) Date", rule_description: "OMG love is in the air! The Roller must choose a \"date\" of the opposite sex (if applicable). Whenever one person drinks, so must the other. If another player in the game catches one of the tandem not drinking when they are supposed to, both players shall get double the Loser Penalty. Make sure everyone makes things extra uncomfortable by coming to unfounded conclusions as to why this person was chosen."
-        , rules: nil)
+    static let card3 = Card(title: "3) Beverage Butler", rule_description: "Just like in one of them super fancy restaurants that give you free bread and cloth napkins, The Roller must provide all players with beverages when ordered for the remainder of the game. If non-compliant, the Beverage Butler shall be banished from the game forever. No tips required.", rules: nil)
     
-    static let card4 = Card(title: "4) Beverage Butler", rule_description: "Just like in one of them super fancy restaurants that give you free bread and cloth napkins, The Roller must provide all players with beverages when ordered for the remainder of the game. If non-compliant, the Beverage Butler shall be banished from the game forever. No tips required.", rules: nil)
+    static let card4 = Card(title: "4) President Trump", rule_description: "While completely unqualified, The Roller is now the President of the game. This means they have the power to over-rule the Loser Penalty for all group-based games and hand out whatever they see fit. They will also resolve any and all disputes. President Trump may appoint a Vice President to aid in decision making. Prepare yourselves for a long game with this asshole.", rules: nil)
     
-    static let card5 = Card(title: "5) President Trump", rule_description: "While completely unqualified, The Roller is now the President of the game. This means they have the power to over-rule the Loser Penalty for all group-based games and hand out whatever they see fit. They will also resolve any and all disputes. President Trump may appoint a Vice President to aid in decision making. Prepare yourselves for a long game with this asshole.", rules: nil)
+    static let card5 = Card(title: "5) Snapchat Paparazzi", rule_description: "The Roller must secretly capture their opponents doing something weird on Snapchat at some point during the game (there should be plenty of opportunities). If you're the type of person that doesn't have a Snapchat, you can simply go get your photos developed at the local pharmacy after the game and then mail them out to every contact in your phonebook. Just be sure to include an airtight contract that the photos must be destroyed after 24 hours so nothing scandalous winds up in the tabloids.", rules: nil)
     
-    static let card6 = Card(title: "6) Snapchat Paparazzi", rule_description: "The Roller must secretly capture their opponents doing something weird on Snapchat at some point during the game (there should be plenty of opportunities). If you're the type of person that doesn't have a Snapchat, you can simply go get your photos developed at the local pharmacy after the game and then mail them out to every contact in your phonebook. Just be sure to include an airtight contract that the photos must be destroyed after 24 hours so nothing scandalous winds up in the tabloids.", rules: nil)
+    static let card6 = Card(title: "6) The Sneaky Texter", rule_description: "The Roller now has the ability to text anyone in the game, at any time, a number from 1-5. If a person receives one of these messages from the Sneaky Texter, they are subject to the Loser Penalty times the number received in the text. However, if the Sneaky Texter is caught in the act of texting by any player in the game, they are immediately subject to triple the Loser Penalty. Everyone should constantly have their eye on this fast-fingered weasel.", rules: nil)
     
-    static let card7 = Card(title: "7) The Gamble", rule_description: "The Roller and another player in the game (Roller's choice) must make a handshake wager of $2 on who will finish the game first. \"No Cash\" = No Excuse (Venmo that bish #penislandgamble)", rules: nil)
+    static let card7 = Card(title: "7) Make A Rule", rule_description: "The Roller must make a rule in which all players must follow. Like a madman drunk on power, they may ruthlessly enforce this rule for the remainder of the game by handing out the Loser Penalty to anyone that breaks it.", rules: nil)
     
-    static let card8 = Card(title: "8) Make A Rule", rule_description: "The Roller must make a rule in which all players must follow. Like a madman drunk on power, they may ruthlessly enforce this rule for the remainder of the game by handing out the Loser Penalty to anyone that breaks it.", rules: nil)
+    static let card8 = Card(title: "8) Tunes Master", rule_description: "Sorry guys, like a cut-rate wedding DJ you hired off craigslist, The Roller gets to impose their shitty music on you for the remainder of the game (Just know that if it gets too bad there are Pen Island playlists available on Spotify).", rules: nil)
     
-    static let card9 = Card(title: "9) Tunes Master", rule_description: "Sorry guys, like a cut-rate wedding DJ you hired off craigslist, The Roller gets to impose their shitty music on you for the remainder of the game (Just know that if it gets too bad there are Pen Island playlists available on Spotify).", rules: nil)
+    static let card9 = Card(title: "9) Bad Categories", rule_description: "Group Game - The Roller must draw a random Bad Category below. Beginning with person to The Roller's left, all players must say a relevant answer. No repeats. 1st player to mess up is subject to double the Loser Penalty.", rules: [
+        "Things that Boobs feel like",
+        "Names of People you've made out with",
+        "Things that resemble a penis",
+        "Places you wouldn't want to be caught having sex",
+        "Places you wouldn't want to be caught looking at porn",
+        "Places you wouldn't want to take a dump",
+        "Alternative names for \"Oral Sex\"",
+        "Alternative names for \"Jerking Off\"",
+        "Things that could theoretically get stuck up your butt",
+        "Things you could use instead of toilet paper",
+        "Things that are sticky",
+        "Things that are moist",
+        "Bad occasions to get really drunk",
+        "Alternative ways to say \"Passing Gas\"",
+        "Names of Shitty Universities",
+        "Names of Fat Celebrities",
+        "Underrated Sex Positions",
+        "Stripper Names",
+        "Bad Things to Say After Sex",
+        "Bad Pick-up Lines",
+        "Things that Smell Bad",
+        "Things that Make You Sweaty",
+        "Wacky Religions",
+        "Restaurants You Wouldn't be Caught Dead In",
+        "Places you've hooked up",
+        "Celebs you would bang",
+        "Things you would do to get out of a traffic ticket",
+        "Bad excuses for when you're too hungover to go to work",
+        "Bad things to say at the alter",
+        "Bad 4-letter words",
+        "Unfortunate times to get the squirts",
+        "Bad people to name your baby after",
+        "Bad occasions to take a selfie",
+        "Bad things to wear to a court hearing",
+        "Bad occasions to try shrooms for the first time",
+        "Bad opening lines on Tinder",
+        "Bad Profile Bio lines on Tinder",
+        "Bad animals to get as a pet",
+        "Bad things to find in your soup",
+        "Weird sounds to have as your ringtone",
+        "Bad places to ask someone to marry you",
+        "People you wouldn't want to play this game with",
+        "Bad things to get tattooed on your butt",
+        "Bad places to hold a wedding reception",
+        "Bad things to have engraved on your tombstone",
+        "Bad times to let off a \"silent but deadly\"",
+        "Bad places to go on a first date",
+        "Bad things to say after a first date"])
     
-    static let card10 = Card(title: "10) Bad Categories", rule_description: "Group Game - The Roller must draw a random Bad Category below. Beginning with person to The Roller's left, all players must say a relevant answer. No repeats. 1st player to mess up is subject to double the Loser Penalty.", rules: nil)
+    static let card10 = Card(title: "10) Question Master", rule_description: "\"I'm Ron Burgundy?\" For the remainder of the game, The Roller can ask anyone a question. The responder must answer with another question. If they do not, they are subject to the Loser Penalty.", rules: nil)
     
-    static let card11 = Card(title: "11) Question Master", rule_description: "\"I'm Ron Burgundy?\" For the remainder of the game, The Roller can ask anyone a question. The responder must answer with another question. If they do not, they are subject to the Loser Penalty.", rules: nil)
-    
-    static let card12 = Card(title: "12) Trivia", rule_description: "Like a depressing Monday night at your local townie bar, it's time for some trivia! The Roller must correctly answer the random trivia question drawn below. Wrong answer = triple the Loser Penalty. All other players may verify the answer via a credible source on the internets.", rules: [
+    static let card11 = Card(title: "11) Trivia", rule_description: "Like a depressing Monday night at your local townie bar, it's time for some trivia! The Roller must correctly answer the random trivia question drawn below. Wrong answer = triple the Loser Penalty. All other players may verify the answer via a credible source on the internets.", rules: [
         "Who won the Super Bowl in 2016?",
         "Who won the 2016 College Football National Championship?",
         "Name one common ingredient in beer.",
@@ -111,7 +156,7 @@ class CardManager: NSObject {
         "Name the last WNBA Champion",
         "Name 1 WMBA team"])
     
-    static let card13 = Card(title: "13) The Cult Leader", rule_description: "All Hail! The Roller is now \"The Cult Leader\" and must read aloud the random cult game drawn below. The Cult Leader may initiate his cult at any time during the remainder of the game. The last one to join the cult is subject to double the Loser Penalty.", rules: [
+    static let card12 = Card(title: "12) The Cult Leader", rule_description: "All Hail! The Roller is now \"The Cult Leader\" and must read aloud the random cult game drawn below. The Cult Leader may initiate his cult at any time during the remainder of the game. The last one to join the cult is subject to double the Loser Penalty.", rules: [
         "Thumb Master (thumb on the table)",
         "Forehead Master (like thumb master but with your head on the table instead)",
         "Nap Master (lay on the ground)",
@@ -129,9 +174,7 @@ class CardManager: NSObject {
         "Wave Master (start the wave)",
         "Medusa Master (point to anyone you want to turn them to stone, release them when you're ready)"])
     
-    static let card14 = Card(title: "14) The Sneaky Texter", rule_description: "The Roller now has the ability to text anyone in the game, at any time, a number from 1-5. If a person receives one of these messages from the Sneaky Texter, they are subject to the Loser Penalty times the number received in the text. However, if the Sneaky Texter is caught in the act of texting by any player in the game, they are immediately subject to triple the Loser Penalty. Everyone should constantly have their eye on this fast-fingered weasel.", rules: nil)
-    
-    static let card15 = Card(title: "15) The Most Likely To", rule_description: "Group Game - The Roller draws a \"Most Likely to\" category below. On the Roller's count of 3, everyone points to the person who is most likely to do that thing. The person with the most votes is subject to triple the Loser Penalty and definitive proof that they peaked in High School.", rules: [
+    static let card13 = Card(title: "13) The Most Likely To", rule_description: "Group Game - The Roller draws a \"Most Likely to\" category below. On the Roller's count of 3, everyone points to the person who is most likely to do that thing. The person with the most votes is subject to triple the Loser Penalty and definitive proof that they peaked in High School.", rules: [
         "Join a nudist colony",
         "Drive a mini van in 10 years",
         "Fall in love with a waffle house worker",
@@ -206,11 +249,11 @@ class CardManager: NSObject {
         "Post something on social media with the hashtag #freethenipple",
         "Have a drawer full of expired condoms"])
     
-    static let card16 = Card(title: "16) The Trolls", rule_description: "Group Game - Everybody listen up! The Roller must open their Instagram and post a comment of a single emoji on a recent pic in their feed. The Roller will then announce where their post is located and everyone must proceed to post their own comment underneath with nothing but related emojis. The last person to post (and anyone without an Instagram) gets triple the Loser Punishment. Ready, go!", rules: nil)
+    static let card14 = Card(title: "14) The Trolls", rule_description: "Group Game - Everybody listen up! The Roller must open their Instagram and post a comment of a single emoji on a recent pic in their feed. The Roller will then announce where their post is located and everyone must proceed to post their own comment underneath with nothing but related emojis. The last person to post (and anyone without an Instagram) gets triple the Loser Punishment. Ready, go!", rules: nil)
     
-    static let card17 = Card(title: "17) Take A Trip", rule_description: "Congratulations! Grab the sunscreen and some lube cuz the Roller just earned an all-inclusive trip to Pen island! (See square 17P for your itinerary).", rules: nil)
+    static let card15 = Card(title: "15) Take A Trip", rule_description: "Congratulations! Grab the sunscreen and some lube cuz the Roller just earned an all-inclusive trip to Pen island! (See space Pen15 for your itinerary).", rules: nil)
     
-    static let card18 = Card(title: "18) Jail", rule_description: "You have the right to remain silent. Anything you say shall be used against you in the Court of Pen island. Draw below to find out your sentencing.", rules: [
+    static let card16 = Card(title: "16) Jail", rule_description: "You have the right to remain silent. Anything you say shall be used against you in the Court of Pen island. Draw below to find out your sentencing.", rules: [
     "You were found guilty of Public Indecency. Lose your dignity, your ability to go within 100 ft of an elementary school, and your next turn.",
     "Your name came up on a suspected terrorist list because you're really bombing this game. You have been deported to Pen island (17P).",
     "You paid off the judge with sexual favors. Give the person to your left a massage during their turn and then you may proceed on your next roll.",
@@ -232,7 +275,7 @@ class CardManager: NSObject {
     "The detective on your case thinks you're a snake so you've been ordered to take a polygraph test. You have 2 minutes to come up with 2 truths and a lie about anything in your life. Once you have your stories straight, write down the number of your lie on the inside of your hand and tell them to the group. Then the group (as a whole) must guess which is your lie. If the group sniffs it out, go straight to Pen island (17P). If you beat the test, you may move on next turn. Hope you got a good poker face.",
     "You've been offered a plee deal. Tell the court the last person you hooked up with and finish your drink. It's better than a life sentance. Proceed next turn. "])
     
-    static let card19 = Card(title: "19) Human Pictionary", rule_description: "First things first, go grab a pen and put 60 seconds on someone's phone timer. Then the Player to the left of The Roller generates a picture theme below (so The Roller can't see) and has 1 minute to draw the image on inside of The Roller's hand. Before the timer goes off, The Roller must accurately guess what the image is without laughing. If they laugh or cannot guess it, both participants are subject to double the Loser Penalty. If they guess correctly, the rest of the group is subject to double the Loser Penalty. Hint: it's gonna be dirty.", rules: [
+    static let card17 = Card(title: "17) Human Pictionary", rule_description: "First things first, go grab a pen and put 60 seconds on someone's phone timer. Then the Player to the left of The Roller generates a picture theme below (so The Roller can't see) and has 1 minute to draw the image on inside of The Roller's hand. Before the timer goes off, The Roller must accurately guess what the image is without laughing. If they laugh or cannot guess it, both participants are subject to double the Loser Penalty. If they guess correctly, the rest of the group is subject to double the Loser Penalty. Hint: it's gonna be dirty.", rules: [
         "Doggy-style",
         "Big Ole' Dildo",
         "Anal Beads",
@@ -268,9 +311,7 @@ class CardManager: NSObject {
         "Manscape",
         "Rim Job"])
     
-    static let card20 = Card(title: "20) Bust A Rhyme", rule_description: "Group Game - The Roller says a word (or draws below). Beginning with person to The Roller's left, all players must respond with another word that rhymes. No repeats. 1st person to break the rhyme streak gets double the Loser Penalty. If you say \"orange\", just leave and never return.", rules: ["Luck", "Knit", "Sock", "Shoe", "Ham", "Glass", "Sink", "Bunt", "Duck", "Art"])
-    
-    static let card21 = Card(title: "21) Never Have I Ever", rule_description: "Time for some soft smiles. The Roller must allow the Snapchat Paparazzi (and anyone else) to snap a photo while re-enacting the type of picture drawn below. If the photo calls for multiple people, they shall be however many people needed from The Roller's left. Props encouraged.", rules: [
+    static let card18 = Card(title: "18) Never Have I Ever", rule_description: "Time for some soft smiles. The Roller must allow the Snapchat Paparazzi (and anyone else) to snap a photo while re-enacting the type of picture drawn below. If the photo calls for multiple people, they shall be however many people needed from The Roller's left. Props encouraged.", rules: [
         "Received/Given Road Head",
         "Been Tested for STD's",
         "Been Caught Masterbating",
@@ -384,7 +425,7 @@ class CardManager: NSObject {
         "Sent a dick pic",
         "Sent a tit pic"])
     
-    static let card22 = Card(title: "22) Glamour Shots", rule_description: "Time for some soft smiles. The Roller must allow the Snapchat Paparazzi (and anyone else) to snap a photo while re-enacting the type of picture drawn below. If the photo calls for multiple people, they shall be however many people needed from The Roller's left. Props encouraged.", rules: [
+    static let card19 = Card(title: "19) Glamour Shots", rule_description: "Time for some soft smiles. The Roller must allow the Snapchat Paparazzi (and anyone else) to snap a photo while re-enacting the type of picture drawn below. If the photo calls for multiple people, they shall be however many people needed from The Roller's left. Props encouraged.", rules: [
         "Prom Pose (roller assumes male role)",
         "High School Senior Pic",
         "\"We're Engaged!\" Pic (w/ person to your left)",
@@ -401,7 +442,7 @@ class CardManager: NSObject {
         "Heisman dat hoe",
         "Statue of Liberty (you represent freedom in the Western Hemisphere, show the world)"])
     
-    static let card23 = Card(title: "23) Distorted Reality", rule_description: "Let's get weird! The Roller draws a Distorted Reality (i.e. new rule) below. The Roller must enforce this reality for the duration specified. Anyone who breaks from reality is subject to the Loser Penalty.", rules: [
+    static let card20 = Card(title: "20) Distorted Reality", rule_description: "Let's get weird! The Roller draws a Distorted Reality (i.e. new rule) below. The Roller must enforce this reality for the duration specified. Anyone who breaks from reality is subject to the Loser Penalty.", rules: [
         "All players have T-Rex Arms during this round",
         "All players must shake their jugs when speaking during this round",
         "All players must start every sentence with, \"Shit son,\" during this round",
@@ -439,53 +480,56 @@ class CardManager: NSObject {
         "All players must end every sentance with, \" 'n shit\" during this round (\"I was all eating pancakes 'n shit\")",
         "High 5s (any time a 5 is rolled everybody high 5 the roller)"])
     
-    static let card24 = Card(title: "24) The Wormhole", rule_description: "Hope you got your spacesuit on! Just like Interstellar Matthew McConaughey, the Roller got sucked through a \"wormhole\" to a random space on the board. Draw below and begin your new life there. #physics", rules: nil)
+    static let card21 = Card(title: "21) The Wormhole", rule_description: "Hope you got your spacesuit on! Just like Interstellar Matthew McConaughey, the Roller got sucked through a \"wormhole\" to a random space on the board. Draw below and begin your new life there. #physics", rules: [
+        "1) The Toast",
+        "2) Name Master",
+        "3) Date",
+        "4) Beverage Butler",
+        "5) President Trump",
+        "6) Snapchat Paparazzi",
+        "7) The Gamble",
+        "8) Make a Rule",
+        "9) Tunes Master",
+        "10) Bad Categories",
+        "11) Question Master",
+        "12) Trivia",
+        "13) The Cult Leader",
+        "14) The Sneaky Texter",
+        "15) The Most Likely to",
+        "16) The Trolls",
+        "17) Take a trip",
+        "18) Jail",
+        "19) Human Pictionary",
+        "20) Bust a Rhyme",
+        "21) Never Have I Ever",
+        "22) Glamour shots",
+        "23) Distorted Reality",
+        "25) Drink Discrimination",
+        "26) Waterfall",
+        "Pen15) #PenIsland #Pen15club",
+        "Pen16) The Roast",
+        "Pen17) Lip Sync Star",
+        "Pen18) Mime",
+        "Pen19) Oddly Inspirational #TBT",
+        "Pen20) Dare",
+        "Pen21) Dancing Fool",
+        "Pen22) House Special",
+        "Pen23) Emoji Butt Text",
+        "Pen24) Quarrantine",
+        "Pen25) Would you Rather",
+        "28) Survivor",
+        "29) Text Master",
+        "30) Accents",
+        "31) The Drinker's Dilemma",
+        "32) Bang, Marry, Kill",
+        "33) Lick, Slap, Fondle",
+        "34) Go Back 17 Spaces"])
     
-    static let card25 = Card(title: "25) Drink Discrimination", rule_description: "Group Game - The Roller draws a characteristic below. Everyone that it describes is subject to double the Loser Penalty.", rules: [
-        "You identify as a female gendered",
-        "You identify as male gendered",
-        "You're a virgin",
-        "You're not a virgin",
-        "You're attracted to someone in the game",
-        "You're in a relationship with someone in the game",
-        "You were born in a different state or country",
-        "Your hair color is not natural",
-        "You've had something medically implanted inside your body",
-        "You were born in the 90's",
-        "You were born in the 80's",
-        "You smoke cigarettes",
-        "You would test positive for an illegal substance",
-        "You're sober",
-        "You're not sober",
-        "You're drinking beer",
-        "You're drinking something other than beer",
-        "You're an only child",
-        "Your ancestors were immigrants",
-        "You're currently in last place",
-        "You're a basic bitch",
-        "You ask for a water cup at a fast food restaurant and sneakily fill it with soda",
-        "You've masterbated this week",
-        "You're wearing pants",
-        "You've gone to the bathroom since the beginning of this game",
-        "You're going out after this",
-        "You took an uber to get here",
-        "You went to highschool with someone in the game",
-        "You've given yourself a below-the-belt haircut this week",
-        "You're in the midst of a month or longer dry spell",
-        "You've been on a first date this month",
-        "You're sexually aroused right now",
-        "You're currently holding a cell phone in your hand",
-        "You're next to someone who is \"literally, the worst\"",
-        "You're better looking than the person to your left",
-        "You're better looking than the person to your right",
-        "You're the tallest person in the game",
-        "You're the shortest person in the game",
-        "You have a dating app on your phone",
-        "You literally can't even"])
+    static let card22 = Card(title: "22) Admission of Guilt", rule_description: "Group Game - The Roller draws a characteristic below. If you admit to it, you're subject to the Loser Penalty. If you don't admit to it and another player calls you out with contradictory evidence, you're subject to triple the loser penalty.", rules: nil)
     
-    static let card26 = Card(title: "26) Waterfall", rule_description: "Group Game - The Roller begins a drinking waterfall. This means you drink until the person to your right stops drinking. Be on the lookout for THAT GUY who is just pretending to drink because the cold is burning his throat. He's among you.", rules: nil)
+    static let card23 = Card(title: "23) The Prisoner's Dilemma", rule_description: "Listen up, this game is simple but requires a bit of attention. The Roller and player to the Roller's left stand up and face each other with their right hand behind their back. At the end of a countdown (and without breaking eye-contact), each person will either hold up a peace sign (\"Peace\"), or hold up their middle finger (\"Screw\"). If both players choose Peace, each player is only subject to the Loser Penalty. If both players choose Screw, both players get 5 times the Loser Penalty. However, if one player chooses Screw while the other player chooses Peace, the Peace player is sent directly to Pen Island (while the Screwer does not have to do anything). 10 second deliberation begins now - 10, 9, 8, 7, 6, 5, 4, 3, 2, 1", rules: nil)
     
-    static let card27 = Card(title: "27) Would You Rather", rule_description: "The Roller must answer the \"Would You Rather\" question drawn below. A \"prove it!\" chant from the group is encouraged.", rules: [
+    static let card24 = Card(title: "24) Would You Rather", rule_description: "The Roller must answer the \"Would You Rather\" question drawn below. A \"prove it!\" chant from the group is encouraged.", rules: [
         "Motorboat the person on your left for 1 hour or suck on the person to your right's big toe for 10 minutes?",
         "Touch nips with the person on your left for 5 hours or floss with a strand of pubic hair from the person to your right?",
         "Trade genitals with the person to your left or IQ with the person to your right?",
@@ -537,11 +581,13 @@ class CardManager: NSObject {
         "Be able to see everyones farts or see an image of the last poop each person has had when you meet them",
         "Watch your parents have sex every day for the rest of your life or join in once to stop it"])
     
-    static let card28 = Card(title: "28) Survivor", rule_description: "It's like that show that was cool 15 years ago, except the exact opposite (you do not want to be stuck on this island). One by one starting with The Roller, everyone must vote on one person to be exciled to the beginning of Pen island (doesn't matter where they currently are). Present your vote as if you are dramatically displaying a hand-written card to the group.", rules: nil)
+    static let card25 = Card(title: "25) Survivor", rule_description: "It's like that show that was cool 15 years ago, except the exact opposite (you do not want to be stuck on this island). One by one starting with The Roller, everyone must vote on one person to be exciled to the beginning of Pen island (doesn't matter where they currently are). Present your vote as if you are dramatically displaying a hand-written card to the group.", rules: nil)
     
-    static let card29 = Card(title: "29) The Text Master", rule_description: "All phones go on the table face up with the ringer turned on. For the remainder of the game, The Roller is now the Text Master and may respond to any incoming texts that they see. \"Send Nudes\"", rules: nil)
+    static let card26 = Card(title: "26) The Text Master", rule_description: "All phones go on the table face up with the ringer turned on. For the remainder of the game, The Roller is now the Text Master and may respond to any incoming texts that they see. \"Send Nudes\"", rules: nil)
     
-    static let card30 = Card(title: "30) Accents", rule_description: "Blatantly racist stereotype time! The Roller must make up or draw a random Accent below that the group must speak in for the remainder of the game. Loser Penalty for all who speak out of this new tongue.", rules:
+    static let card27 = Card(title: "27) Bang, Marry, Kill", rule_description: "This will be awkward no matter how strategic you think you are. The Roller must decide who they would Bang, Marry, or Kill from the 3 players on their left. Loser Penalty to all participants, because let's be honest--everyone's a loser here.", rules: nil)
+    
+    static let card28 = Card(title: "28) Accents", rule_description: "Blatantly racist stereotype time! The Roller must make up or draw a random Accent below that the group must speak in for the remainder of the game. Loser Penalty for all who speak out of this new tongue.", rules:
         ["Australian (Throw another shrimp on the barbie mate!)",
          "Chinese (Ching chang chong)",
          "Southern Hick (Reckon a storm's a brewin down yonder)",
@@ -559,23 +605,19 @@ class CardManager: NSObject {
          "Teenage Girl (Like, totes IDK)",
          "Italian (ayyyyy! Itsa pizzaa pie!, Itsa me, Mario!)",])
     
-    static let card31 = Card(title: "31) The Drinker's Dilemma", rule_description: "Listen up, this game is simple but requires a bit of attention. The Roller and player to the Roller's left stand up and face each other with their right hand behind their back. At the end of a countdown (and without breaking eye-contact), each person will either hold up a peace sign (\"Peace\"), or hold up their middle finger (\"Screw\"). If both players choose Peace, each player is only subject to the Loser Penalty. If both players choose Screw, both players get 5 times the Loser Penalty. However, if one player chooses Screw while the other player chooses Peace, the Peace player is sent directly to Pen Island (while the Screwer does not have to do anything). 10 second deliberation begins now - 10, 9, 8, 7, 6, 5, 4, 3, 2, 1", rules: nil)
+    static let card29 = Card(title: "29) Lick, Slap, Fondle", rule_description: "As if things couldn't get any weirder, it's about to go to the next level. The Roller must Lick, Slap, or Fondle the 3 players to their left. Roller's choice of who gets what, though everyone's a loser in this game.", rules: nil)
     
-    static let card32 = Card(title: "32) Bang, Marry, Kill", rule_description: "This will be awkward no matter how strategic you think you are. The Roller must decide who they would Bang, Marry, or Kill from the 3 players on their left.", rules: nil)
+    static let card30 = Card(title: "30) Go Back 15 Spaces", rule_description: "Aw, so close! The Roller must move back 15 spaces.", rules: nil)
     
-    static let card33 = Card(title: "33) Lick, Slap, Fondle", rule_description: "As if things couldn't get any weirder, it's about to go to the next level. The Roller must Lick, Slap, or Fondle the 3 players to their left. Roller's choice of who gets what, though everyone's a loser in this game.", rules: nil)
+    static let card31 = Card(title: "Pen15) #Penisland #Pen15club", rule_description: "Upon arrival on beautiful Pen island, you must become an official member of the exclusive \"Pen15 Club\" (this means 'Pen15' is written on your hand in case you lived under a rock in elementary school). The person to the left of The Roller may do the honors at the size of their discretion. Proof of your membership must be submitted on the social media of your choice by snapping a photo of your hand with the caption \"#PenIsland #Pen15club\".", rules: nil)
     
-    static let card34 = Card(title: "34) Go Back 17 Spaces", rule_description: "Aw, so close! The Roller must move back 17 spaces.", rules: nil)
+    static let card32 = Card(title: "Pen16) The Roast", rule_description: "Beginning with the person to the left, everyone must insult The Roller. 1 Loser Penalty to ease the pain of every sick burn. Boom, roasted.", rules: nil)
     
-    static let card35 = Card(title: "17P) #Penisland #Pen15club", rule_description: "Upon arrival on beautiful Pen island, you must become an official member of the exclusive \"Pen15 Club\" (this means 'Pen15' is written on your hand in case you lived under a rock in elementary school). The person to the left of The Roller may do the honors at the size of their discretion. Proof of your membership must be submitted on the social media of your choice by snapping a photo of your hand with the caption \"#PenIsland #Pen15club\".", rules: nil)
+    static let card33 = Card(title: "Pen17) Lip Sync Star", rule_description: "Time to channel your inner Beyonce. The Roller must perform 30 seconds of a concert quality lip sync performance from the next song chosen by whoever's in charge of the music.", rules: nil)
     
-    static let card36 = Card(title: "18P) The Roast", rule_description: "Beginning with the person to the left, everyone must insult The Roller. 1 Loser Penalty to ease the pain of every sick burn. Boom, roasted.", rules: nil)
+    static let card34 = Card(title: "Pen18) Mime", rule_description: "Just shut your face. The Roller is not allowed to speak for the remainder of their time on the island. Instead, they must mime what they are trying to say. Loser Penalty for every word spoken.", rules: nil)
     
-    static let card37 = Card(title: "19P) Lip Sync Star", rule_description: "Time to channel your inner Beyonce. The Roller must perform 30 seconds of a concert quality lip sync performance from the next song chosen by whoever's in charge of the music.", rules: nil)
-    
-    static let card38 = Card(title: "20P) Mime", rule_description: "Just shut your face. The Roller is not allowed to speak for the remainder of their time on the island. Instead, they must mime what they are trying to say. Loser Penalty for every word spoken.", rules: nil)
-    
-    static let card39 = Card(title: "21P) Oddly Inspirational", rule_description: "Everyone is so hashtag blessed for getting to witness this gem. The Roller must Instagram (or Facebook) the oldest picture stored in their phone's camera roll. They must caption the post with the inspirational quote generated below followed by \"#TBT #PenIslandInspiration\". Get ready to inspire some Likes!", rules: [
+    static let card35 = Card(title: "Pen19) Oddly Inspirational", rule_description: "Everyone is so hashtag blessed for getting to witness this gem. The Roller must Instagram (or Facebook) the oldest picture stored in their phone's camera roll. They must caption the post with the inspirational quote generated below followed by \"#TBT #PenIslandInspiration\". Get ready to inspire some Likes!", rules: [
         "\"Sing like no one is listening. Love like you've never been hurt. Dance like nobody is watching.\"",
         "\"Live. Laugh. Love.\"",
         "\"You are never too old to set another goal or dream a new dream.\"",
@@ -602,7 +644,7 @@ class CardManager: NSObject {
         "\"Don't go chasing waterfalls, Please stick to the rivers and the lakes that you're used to\" - Destin E. Child, 1994",
         "\"I get knocked down, but I get up again, you're never gonna keep me down\" - Chum B. Wumba, 1997"])
     
-    static let card40 = Card(title: "22P) Dare", rule_description: "Truth or Dare? Just kidding, we all know you're lame so we made the choice for you. The Roller must fulfill a Dare drawn below. The game shall not proceed until completed.", rules: [
+    static let card36 = Card(title: "Pen20) Dare", rule_description: "Truth or Dare? Just kidding, we all know you're lame so we made the choice for you. The Roller must fulfill a Dare drawn below. The game shall not proceed until completed.", rules: [
         "Post a Mirror Selfie Profile Pic on Facebook",
         "Wrap yourself in toilet paper like a mummy",
         "Get a lower back tattoo drawn on by the person to your left",
@@ -636,13 +678,13 @@ class CardManager: NSObject {
         "Trade 3 articles of clothing with the person to your right",
         "Slow dance to 30 seconds of a Nickelback song with the person on your left "])
     
-    static let card41 = Card(title: "23P) Dancing Fool", rule_description: "Dance like no one is watching. Except everyone is. And you're going to look stupid. The Roller must dance alone continuously until their next turn.", rules: nil)
+    static let card37 = Card(title: "Pen21) Dancing Fool", rule_description: "Dance like no one is watching. Except everyone is. And you're going to look stupid. The Roller must dance alone continuously until their next turn.", rules: nil)
     
-    static let card42 = Card(title: "24P) House Special", rule_description: "The Owner of the game gets to concoct a shot for The Roller using anything in the kitchen (FDA approved). Bon Appetit!", rules: nil)
+    static let card38 = Card(title: "Pen22) House Special", rule_description: "The Owner of the game gets to concoct a shot for The Roller using anything in the kitchen (FDA approved). Bon Appetit!", rules: nil)
     
-    static let card43 = Card(title: "25P) Emoji Butt Text", rule_description: "The Roller must open their Text Messages app and scroll all the way to the bottom of their history. When they arrive at the very first message (to another human), they must \"Accidentally\" send a single emoji text to this person and re-awaken a conversation that's probably been dead since 2009. \"Is it too late now to say sorry?\"", rules: nil)
+    static let card39 = Card(title: "Pen23) Emoji Butt Text", rule_description: "The Roller must open their Text Messages app and scroll all the way to the bottom of their history. When they arrive at the very first message (to another human), they must \"Accidentally\" send a single emoji text to this person and re-awaken a conversation that's probably been dead since 2009. \"Is it too late now to say sorry?\"", rules: nil)
     
-    static let card44 = Card(title: "26P) Quarrantine", rule_description: "Turns out those weren't WORRY warts after all! You've contracted a vile disease on Pen island and must be quarrantined. Go sit on the floor under the nearest table or in the corner of the room until your next turn.", rules: nil)
+    static let card40 = Card(title: "Pen24) Quarrantine", rule_description: "Turns out those weren't WORRY warts after all! You've contracted a vile disease on Pen island and must be quarrantined. Go sit on the floor under the nearest table or in the corner of the room until your next turn.", rules: nil)
     
-    static let allCards = [CardManager.card1, CardManager.card2, CardManager.card3, CardManager.card4,CardManager.card5, CardManager.card6, CardManager.card7, CardManager.card8, CardManager.card9, CardManager.card10, CardManager.card11, CardManager.card12, CardManager.card13, CardManager.card14, CardManager.card15, CardManager.card16, CardManager.card17, CardManager.card18, CardManager.card19, CardManager.card20, CardManager.card21, CardManager.card22, CardManager.card23, CardManager.card24, CardManager.card25, CardManager.card26, CardManager.card27, CardManager.card28, CardManager.card29, CardManager.card30, CardManager.card31, CardManager.card32, CardManager.card33, CardManager.card34, CardManager.card35, CardManager.card36, CardManager.card37, CardManager.card38, CardManager.card39, CardManager.card40, CardManager.card41, CardManager.card42, CardManager.card43, CardManager.card44]
+    static let allCards = [CardManager.card1, CardManager.card2, CardManager.card3, CardManager.card4,CardManager.card5, CardManager.card6, CardManager.card7, CardManager.card8, CardManager.card9, CardManager.card10, CardManager.card11, CardManager.card12, CardManager.card13, CardManager.card14, CardManager.card15, CardManager.card16, CardManager.card17, CardManager.card18, CardManager.card19, CardManager.card20, CardManager.card21, CardManager.card22, CardManager.card23, CardManager.card24, CardManager.card25, CardManager.card26, CardManager.card27, CardManager.card28, CardManager.card29, CardManager.card30, CardManager.card31, CardManager.card32, CardManager.card33, CardManager.card34, CardManager.card35, CardManager.card36, CardManager.card37, CardManager.card38, CardManager.card39, CardManager.card40,]
 }
