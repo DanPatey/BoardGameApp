@@ -9,7 +9,7 @@
 import Foundation
 class CardManager: NSObject {
     
-    static let card1 = Card(title: "1) The Toast", rule_description: "\"Cheers to the last time we will all be friends.\" The Roller must start the game off by proposing a group toast.", rules: nil)
+    static let card1 = Card(title: "1) The Toast", rule_description: "\"Cheers to the last time we will all be friends!\" The Roller must start the game off by proposing a group toast.", rules: nil)
     
     static let card2 = Card(title: "2) Name Master", rule_description: "The Roller must assign each player with a new name (or draw random below) to replace all your lame and worn-out birthnames. The Roller may enforce these names for the remainder of the game by handing out the Loser Penalty to anyone who forgets to use them."
         , rules: [
