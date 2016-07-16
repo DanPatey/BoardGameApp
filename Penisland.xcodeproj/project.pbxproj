@@ -71,13 +71,13 @@
 				5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */,
 				57D90E811CF2598C00410284 /* TheListViewController.swift */,
 				57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */,
-				57ED4DEC1CF24919008F1CD3 /* Main.storyboard */,
-				57ED4DEF1CF24919008F1CD3 /* Assets.xcassets */,
-				5762B56C1CF2765B002CF248 /* instructions.html */,
 				57C9BAF91CF7F03B00B11F01 /* Card.swift */,
 				57C9BAFB1CF7F21600B11F01 /* CardManager.swift */,
+				5762B56C1CF2765B002CF248 /* instructions.html */,
+				57ED4DEC1CF24919008F1CD3 /* Main.storyboard */,
 				57ED4DF11CF24919008F1CD3 /* LaunchScreen.storyboard */,
 				57ED4DF41CF24919008F1CD3 /* Info.plist */,
+				57ED4DEF1CF24919008F1CD3 /* Assets.xcassets */,
 			);
 			path = Penisland;
 			sourceTree = "<group>";

@@ -13,7 +13,11 @@ class TheListDetailViewController: UIViewController {
     @IBOutlet weak var rulesText: UITextField!
     //@IBOutlet weak var rulesText: UITextView!
     @IBOutlet weak var rulesRandomizer: UIButton!
-
+    
+    @IBAction func rightSwipe(sender: AnyObject) {
+        self.navigationController?.popViewControllerAnimated(true)
+    }
+    
     @IBAction func showAlert() {
         // Generate a random response and display it
         let randomIndex = Int(arc4random_uniform(UInt32((myCard?.rules!.count)!)))

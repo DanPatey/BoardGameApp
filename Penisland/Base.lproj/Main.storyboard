@@ -238,6 +238,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.58823529409999997" green="0.95294117649999999" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="centerY" secondItem="lY4-0m-G19" secondAttribute="centerY" id="Rz9-7D-WRx"/>
                             <constraint firstItem="Vbh-73-iHA" firstAttribute="top" secondItem="8Xe-FI-Oux" secondAttribute="bottom" constant="40" id="SA8-Nq-iWw">
@@ -263,6 +264,9 @@
                                 <include reference="sOx-Pq-mu5"/>
                             </mask>
                         </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="rLS-zH-Bjg" appends="YES" id="Od8-sb-ILv"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="vxb-rJ-lEC">
                         <barButtonItem key="leftBarButtonItem" systemItem="done" id="fRy-KV-I2F">
@@ -277,6 +281,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ua8-L4-WDq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="rLS-zH-Bjg" userLabel="Right Swipe Gesture Recognizer">
+                    <connections>
+                        <action selector="rightSwipe:" destination="Vhz-3s-Qv0" id="pOo-xA-9Pw"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3678" y="307"/>
         </scene>
