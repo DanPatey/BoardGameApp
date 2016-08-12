@@ -295,7 +295,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3678" y="307"/>
+            <point key="canvasLocation" x="3038" y="307"/>
         </scene>
         <!--Instructions View Controller-->
         <scene sceneID="0RO-So-FWt">
@@ -377,25 +377,6 @@
             </objects>
             <point key="canvasLocation" x="1718" y="307"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="2GU-u5-kZC">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gmP-jR-rH1" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yKK-aR-qbn">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.58823529409999997" green="0.95294117649999999" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Vhz-3s-Qv0" kind="relationship" relationship="rootViewController" id="zjy-4A-IyC"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b36-c6-cTT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3022" y="307"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Logo" width="400" height="265"/>
@@ -403,7 +384,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8BS-BB-QQ7"/>
-        <segue reference="JZT-8q-vZI"/>
+        <segue reference="069-mI-HFl"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1019607843" green="0.3411764706" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
 </document>
