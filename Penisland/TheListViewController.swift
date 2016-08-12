@@ -13,7 +13,13 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    }   
+    
+        let backView = UIView.init(frame: CGRect(x: 0,y: 0,width: 10,height: 20))
+        let imageView = UIImageView(image: UIImage(named: "Logo1"))
+        imageView.frame = CGRectMake(4, 5, imageView.frame.size.width, imageView.frame.size.width)
+        backView.addSubview(imageView)
+        self.navigationItem.titleView = imageView
+    }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return CardManager.allCards.count

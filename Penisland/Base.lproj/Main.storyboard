@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -88,7 +88,7 @@
                                                     </mask>
                                                 </variation>
                                                 <connections>
-                                                    <segue destination="UPb-I2-KM6" kind="presentation" id="JZT-8q-vZI"/>
+                                                    <segue destination="UPb-I2-KM6" kind="show" id="JZT-8q-vZI"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -135,9 +135,29 @@
                         <constraints>
                             <constraint firstItem="gld-5T-4kH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="33t-Rq-dLb"/>
                             <constraint firstItem="gld-5T-4kH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DEb-IL-2Qk"/>
+                            <constraint firstItem="GDk-uU-fsI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FNg-31-JiJ"/>
                             <constraint firstAttribute="trailing" secondItem="gld-5T-4kH" secondAttribute="trailing" id="FOo-5o-0Pj"/>
+                            <constraint firstAttribute="bottom" secondItem="GDk-uU-fsI" secondAttribute="bottom" id="Qwx-yt-4qE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gld-5T-4kH" secondAttribute="bottom" id="kMy-tD-jee"/>
+                            <constraint firstAttribute="trailing" secondItem="GDk-uU-fsI" secondAttribute="trailing" id="w8j-6B-vSh"/>
+                            <constraint firstItem="GDk-uU-fsI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wCF-P1-Zxo"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FNg-31-JiJ"/>
+                                <exclude reference="Qwx-yt-4qE"/>
+                                <exclude reference="w8j-6B-vSh"/>
+                                <exclude reference="wCF-P1-Zxo"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="FNg-31-JiJ"/>
+                                <include reference="Qwx-yt-4qE"/>
+                                <include reference="w8j-6B-vSh"/>
+                                <include reference="wCF-P1-Zxo"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="instructions" destination="DAR-iu-3Sb" id="Lbu-wX-Axu"/>
@@ -335,7 +355,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gLB-V5-cft" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1718" y="978"/>
+            <point key="canvasLocation" x="1796" y="1142"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jNg-Od-3Ys">
@@ -355,7 +375,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vzp-CD-1ZK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1057" y="978"/>
+            <point key="canvasLocation" x="1043" y="1078"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="g62-Ki-4B6">
@@ -384,7 +404,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8BS-BB-QQ7"/>
-        <segue reference="069-mI-HFl"/>
+        <segue reference="JZT-8q-vZI"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1019607843" green="0.3411764706" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
 </document>
