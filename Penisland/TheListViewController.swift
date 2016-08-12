@@ -13,7 +13,7 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
+    }   
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return CardManager.allCards.count
