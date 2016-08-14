@@ -15,7 +15,7 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
         super.viewDidLoad()
     
         let backView = UIView.init(frame: CGRect(x: 0,y: 0,width: 10,height: 20))
-        let imageView = UIImageView(image: UIImage(named: "Logo1"))
+        let imageView = UIImageView(image: UIImage(named: "SmallLogo"))
         imageView.frame = CGRectMake(4, 5, imageView.frame.size.width, imageView.frame.size.width)
         backView.addSubview(imageView)
         self.navigationItem.titleView = imageView
@@ -26,7 +26,10 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = UITableViewCell(style:UITableViewCellStyle.Default, reuseIdentifier:"cell")
+        let cell = UITableViewCell(style:UITableViewCellStyle.Default, reuseIdentifier:"cell")
+        cell.layer.borderColor = UIColor.blackColor().CGColor
+        cell.layer.borderWidth = 2.0
+        
         return cell
     }
     

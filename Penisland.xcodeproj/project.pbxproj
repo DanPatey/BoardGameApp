@@ -18,6 +18,7 @@
 		57ED4DEE1CF24919008F1CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED4DEC1CF24919008F1CD3 /* Main.storyboard */; };
 		57ED4DF01CF24919008F1CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57ED4DEF1CF24919008F1CD3 /* Assets.xcassets */; };
 		57ED4DF31CF24919008F1CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED4DF11CF24919008F1CD3 /* LaunchScreen.storyboard */; };
+		9996A9651D5FE59D006C6DEE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		57ED4DEF1CF24919008F1CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57ED4DF21CF24919008F1CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57ED4DF41CF24919008F1CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				57ED4DEA1CF24919008F1CD3 /* ViewController.swift */,
 				5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */,
 				57D90E811CF2598C00410284 /* TheListViewController.swift */,
+				9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */,
 				57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */,
 				57C9BAF91CF7F03B00B11F01 /* Card.swift */,
 				57C9BAFB1CF7F21600B11F01 /* CardManager.swift */,
@@ -157,6 +160,7 @@
 			files = (
 				57ED4DEB1CF24919008F1CD3 /* ViewController.swift in Sources */,
 				57C9BAFA1CF7F03B00B11F01 /* Card.swift in Sources */,
+				9996A9651D5FE59D006C6DEE /* CustomTableViewCell.swift in Sources */,
 				57C9BAF81CF7EE9C00B11F01 /* TheListDetailViewController.swift in Sources */,
 				57C9BAFC1CF7F21600B11F01 /* CardManager.swift in Sources */,
 				57ED4DE91CF24919008F1CD3 /* AppDelegate.swift in Sources */,
