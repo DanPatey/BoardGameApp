@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-class TheListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {    
+class TheListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,15 +20,19 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
         backView.addSubview(imageView)
         self.navigationItem.titleView = imageView
     }
-
+    
+    // TableView Delegate and Datasource
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return CardManager.allCards.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        // Designs the cell *could be subclassed*
         let cell = UITableViewCell(style:UITableViewCellStyle.Default, reuseIdentifier:"cell")
-        cell.layer.borderColor = UIColor.blackColor().CGColor
         cell.layer.borderWidth = 2.0
+        cell.layer.borderColor = UIColor.blackColor().CGColor
+        cell.accessoryView =  UIImageView.init(image: UIImage(named: "menu dots icon"))
         
         return cell
     }

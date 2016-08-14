@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="Palm Tree Background Image" translatesAutoresizingMaskIntoConstraints="NO" id="GDk-uU-fsI">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" image="Palm Tree Background Image" translatesAutoresizingMaskIntoConstraints="NO" id="GDk-uU-fsI">
                                 <rect key="frame" x="-75" y="-367" width="750" height="1334"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gld-5T-4kH">

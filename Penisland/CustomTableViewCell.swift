@@ -14,6 +14,7 @@ class CustomTableViewCell: UITableViewCell {
         super.awakeFromNib()
         layer.borderWidth = 2.0
         layer.borderColor = UIColor.blackColor().CGColor
+        accessoryView =  UIImageView.init(image: UIImage(named: "flash icons"))
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
