@@ -12,7 +12,6 @@ class InstructionsViewController: UIViewController {
     
     @IBOutlet weak var webView: UIWebView!
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
