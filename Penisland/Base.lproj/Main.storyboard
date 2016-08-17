@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" image="Palm Tree Background Image" translatesAutoresizingMaskIntoConstraints="NO" id="GDk-uU-fsI">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Palm Tree Background Image" translatesAutoresizingMaskIntoConstraints="NO" id="GDk-uU-fsI">
                                 <rect key="frame" x="-75" y="-367" width="750" height="1334"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gld-5T-4kH">
@@ -137,7 +137,9 @@
                             <constraint firstItem="gld-5T-4kH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DEb-IL-2Qk"/>
                             <constraint firstItem="GDk-uU-fsI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FNg-31-JiJ"/>
                             <constraint firstAttribute="trailing" secondItem="gld-5T-4kH" secondAttribute="trailing" id="FOo-5o-0Pj"/>
+                            <constraint firstItem="GDk-uU-fsI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lyu-mG-pev"/>
                             <constraint firstAttribute="bottom" secondItem="GDk-uU-fsI" secondAttribute="bottom" id="Qwx-yt-4qE"/>
+                            <constraint firstItem="GDk-uU-fsI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="S58-nV-KX5"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gld-5T-4kH" secondAttribute="bottom" id="kMy-tD-jee"/>
                             <constraint firstAttribute="trailing" secondItem="GDk-uU-fsI" secondAttribute="trailing" id="w8j-6B-vSh"/>
                             <constraint firstItem="GDk-uU-fsI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wCF-P1-Zxo"/>
