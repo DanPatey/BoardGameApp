@@ -19,6 +19,7 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
         imageView.frame = CGRectMake(4, 5, imageView.frame.size.width, imageView.frame.size.width)
         backView.addSubview(imageView)
         self.navigationItem.titleView = imageView
+       
     }
     
     // TableView Delegate and Datasource
@@ -34,6 +35,13 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
         cell.layer.borderColor = UIColor.blackColor().CGColor
         cell.accessoryView =  UIImageView.init(image: UIImage(named: "menu dots icon"))
         
+        // Displays flash icons on the random generate ones
+        let selectedCard = CardManager.allCards[indexPath.row]
+        
+        if selectedCard.rules != nil {
+        cell.accessoryView = UIImageView.init(image: UIImage(named: "flash icon"))
+        }
+        
         return cell
     }
     
@@ -46,9 +54,18 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let selectedCard = CardManager.allCards[indexPath.row]
+        
         print("Selected ", selectedCard.title)
         let detailViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("details") as! TheListDetailViewController
         detailViewController.myCard = selectedCard
         self.navigationController?.pushViewController(detailViewController, animated: true)
     }
 }
+
+
+
+
+
+
+
+
