@@ -50,5 +50,3 @@ class TheListDetailViewController: UIViewController {
         rulesText.text = myCard?.rule_description
     }
 }
-
-

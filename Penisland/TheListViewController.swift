@@ -61,11 +61,3 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.navigationController?.pushViewController(detailViewController, animated: true)
     }
 }
-
-
-
-
-
-
-
-
