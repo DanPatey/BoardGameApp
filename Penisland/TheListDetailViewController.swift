@@ -53,9 +53,7 @@ class TheListDetailViewController: UIViewController {
             return
         }
         shortTitle.text = myCard?.short_title
-        rulesText.text = myCard?.rule_description
-
+        rulesText.text = myCard?.rule_description        
         cardImage.image = myCard?.image
-        
     }
 }
