@@ -11,12 +11,12 @@ import Foundation
 
 class TheListDetailViewController: UIViewController {
     @IBOutlet weak var rulesText: UITextField!
-    //@IBOutlet weak var rulesText: UITextView!
     @IBOutlet weak var rulesRandomizer: UIButton!
+    @IBOutlet weak var cardImage: UIImage!
     
     @IBAction func rightSwipe(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true)
-    }
+        }
     
     @IBAction func showAlert() {
         // Generate a random response and display it
@@ -48,5 +48,6 @@ class TheListDetailViewController: UIViewController {
             return
         }
         rulesText.text = myCard?.rule_description
+        cardImage = myCard!.image
     }
 }

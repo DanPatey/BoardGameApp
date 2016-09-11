@@ -106,9 +106,9 @@
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="A7z-eW-wcf"/>
                                                 <exclude reference="0WH-wl-oGD"/>
                                                 <exclude reference="Jsx-dF-6NZ"/>
+                                                <exclude reference="A7z-eW-wcf"/>
                                             </mask>
                                         </variation>
                                     </view>
@@ -217,9 +217,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8Xe-FI-Oux">
-                                <color key="backgroundColor" red="0.58823529409999997" green="0.95294117649999999" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <color key="textColor" red="0.11372549019607843" green="0.41568627450980394" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact">
@@ -248,7 +248,7 @@
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mKs-Rc-lHO"/>
                         </subviews>
-                        <color key="backgroundColor" red="0.58823529409999997" green="0.95294117649999999" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="mKs-Rc-lHO" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="G5w-Id-e6X"/>
@@ -291,6 +291,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="cardImage" destination="mKs-Rc-lHO" id="2Vb-ff-CRf"/>
                         <outlet property="rulesRandomizer" destination="Vbh-73-iHA" id="FoL-En-GU6"/>
                         <outlet property="rulesText" destination="8Xe-FI-Oux" id="luQ-fp-qlf"/>
                     </connections>
