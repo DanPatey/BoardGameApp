@@ -12,7 +12,7 @@ class TheListDetailViewController: UIViewController {
     @IBOutlet weak var shortTitle: UITextView!
     @IBOutlet weak var rulesText: UITextField!
     @IBOutlet weak var rulesRandomizer: UIButton!
-    @IBOutlet weak var cardImage: UIImage!
+    @IBOutlet weak var cardImage: UIImageView!
     
     @IBAction func rightSwipe(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true)
@@ -40,6 +40,11 @@ class TheListDetailViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         fillViewsWithCard()
     }
     
@@ -49,7 +54,8 @@ class TheListDetailViewController: UIViewController {
         }
         shortTitle.text = myCard?.short_title
         rulesText.text = myCard?.rule_description
-        //Make this display something, then have it display from the array
-        cardImage = UIImage(named: "the_toast.png")
+
+        cardImage.image = myCard?.image
+        
     }
 }
