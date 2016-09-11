@@ -218,7 +218,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8Xe-FI-Oux">
                                 <color key="backgroundColor" red="0.58823529409999997" green="0.95294117649999999" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <color key="textColor" red="0.11372549019607843" green="0.41568627450980394" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -246,14 +246,19 @@
                                     <action selector="showAlert" destination="Vhz-3s-Qv0" eventType="touchUpInside" id="Hfw-RQ-HIe"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mKs-Rc-lHO"/>
                         </subviews>
                         <color key="backgroundColor" red="0.58823529409999997" green="0.95294117649999999" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="G5w-Id-e6X"/>
+                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="10" id="Ibr-Hs-C6a"/>
+                            <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="mKs-Rc-lHO" secondAttribute="bottom" constant="15" id="Lg1-cm-ChO"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="centerY" secondItem="lY4-0m-G19" secondAttribute="centerY" id="Rz9-7D-WRx"/>
                             <constraint firstItem="Vbh-73-iHA" firstAttribute="top" secondItem="8Xe-FI-Oux" secondAttribute="bottom" constant="40" id="SA8-Nq-iWw">
                                 <variation key="heightClass=regular-widthClass=regular" constant="40"/>
                             </constraint>
+                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="leading" secondItem="lY4-0m-G19" secondAttribute="leadingMargin" constant="51" id="SAS-VD-xR3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Vbh-73-iHA" secondAttribute="trailing" constant="20" id="bKX-KF-bbo"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="20" id="gU8-QJ-hYu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8Xe-FI-Oux" secondAttribute="trailing" constant="10" id="hxT-xq-fNk"/>
