@@ -7,6 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576053E71D850F0200480281 /* accents.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053BF1D850F0200480281 /* accents.png */; };
+		576053E81D850F0200480281 /* admission_of_guilt.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C01D850F0200480281 /* admission_of_guilt.png */; };
+		576053E91D850F0200480281 /* bad_categories.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C11D850F0200480281 /* bad_categories.png */; };
+		576053EA1D850F0200480281 /* bang_marry_kill.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C21D850F0200480281 /* bang_marry_kill.png */; };
+		576053EB1D850F0200480281 /* bev_butler.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C31D850F0200480281 /* bev_butler.png */; };
+		576053EC1D850F0200480281 /* dancing_fool.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C41D850F0200480281 /* dancing_fool.png */; };
+		576053ED1D850F0200480281 /* dare.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C51D850F0200480281 /* dare.png */; };
+		576053EE1D850F0200480281 /* distorted_reality.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C61D850F0200480281 /* distorted_reality.png */; };
+		576053EF1D850F0200480281 /* emoji_butt_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C71D850F0200480281 /* emoji_butt_text.png */; };
+		576053F01D850F0200480281 /* glamour_shots.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C81D850F0200480281 /* glamour_shots.png */; };
+		576053F11D850F0200480281 /* go_back_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053C91D850F0200480281 /* go_back_15.png */; };
+		576053F21D850F0200480281 /* house_special.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053CA1D850F0200480281 /* house_special.png */; };
+		576053F31D850F0200480281 /* human_pictionary.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053CB1D850F0200480281 /* human_pictionary.png */; };
+		576053F41D850F0200480281 /* jail.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053CC1D850F0200480281 /* jail.png */; };
+		576053F51D850F0200480281 /* lick_slap_fondle.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053CD1D850F0200480281 /* lick_slap_fondle.png */; };
+		576053F61D850F0200480281 /* lip_sync_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053CE1D850F0200480281 /* lip_sync_star.png */; };
+		576053F71D850F0200480281 /* make_a_rule.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053CF1D850F0200480281 /* make_a_rule.png */; };
+		576053F81D850F0200480281 /* mime.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D01D850F0200480281 /* mime.png */; };
+		576053F91D850F0200480281 /* name_master.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D11D850F0200480281 /* name_master.png */; };
+		576053FA1D850F0200480281 /* never_have_i_ever.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D21D850F0200480281 /* never_have_i_ever.png */; };
+		576053FB1D850F0200480281 /* oddly_inspirational.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D31D850F0200480281 /* oddly_inspirational.png */; };
+		576053FC1D850F0200480281 /* penisland_pen15club.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D41D850F0200480281 /* penisland_pen15club.png */; };
+		576053FD1D850F0200480281 /* pres_trump.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D51D850F0200480281 /* pres_trump.png */; };
+		576053FE1D850F0200480281 /* prisoners_dilemma.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D61D850F0200480281 /* prisoners_dilemma.png */; };
+		576053FF1D850F0200480281 /* quarantine.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D71D850F0200480281 /* quarantine.png */; };
+		576054001D850F0200480281 /* question_master.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D81D850F0200480281 /* question_master.png */; };
+		576054011D850F0200480281 /* snapchat_paparazzi.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053D91D850F0200480281 /* snapchat_paparazzi.png */; };
+		576054021D850F0200480281 /* survivor.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053DA1D850F0200480281 /* survivor.png */; };
+		576054031D850F0200480281 /* take_a_trip.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053DB1D850F0200480281 /* take_a_trip.png */; };
+		576054041D850F0200480281 /* text_master.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053DC1D850F0200480281 /* text_master.png */; };
+		576054051D850F0200480281 /* the_cult_leader.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053DD1D850F0200480281 /* the_cult_leader.png */; };
+		576054061D850F0200480281 /* the_most_likely.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053DE1D850F0200480281 /* the_most_likely.png */; };
+		576054071D850F0200480281 /* the_roast.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053DF1D850F0200480281 /* the_roast.png */; };
+		576054081D850F0200480281 /* the_sneaky_texter.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053E01D850F0200480281 /* the_sneaky_texter.png */; };
+		576054091D850F0200480281 /* the_toast.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053E11D850F0200480281 /* the_toast.png */; };
+		5760540A1D850F0200480281 /* the_trolls.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053E21D850F0200480281 /* the_trolls.png */; };
+		5760540B1D850F0200480281 /* the_wormhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053E31D850F0200480281 /* the_wormhole.png */; };
+		5760540C1D850F0200480281 /* trivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053E41D850F0200480281 /* trivia.png */; };
+		5760540D1D850F0200480281 /* tunes_master.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053E51D850F0200480281 /* tunes_master.png */; };
+		5760540E1D850F0200480281 /* would_you_rather.png in Resources */ = {isa = PBXBuildFile; fileRef = 576053E61D850F0200480281 /* would_you_rather.png */; };
 		5762B56D1CF2765B002CF248 /* instructions.html in Resources */ = {isa = PBXBuildFile; fileRef = 5762B56C1CF2765B002CF248 /* instructions.html */; };
 		5762B56F1CF27AFD002CF248 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */; };
 		57C9BAF81CF7EE9C00B11F01 /* TheListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */; };
@@ -22,6 +62,46 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		576053BF1D850F0200480281 /* accents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accents.png; sourceTree = "<group>"; };
+		576053C01D850F0200480281 /* admission_of_guilt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = admission_of_guilt.png; sourceTree = "<group>"; };
+		576053C11D850F0200480281 /* bad_categories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad_categories.png; sourceTree = "<group>"; };
+		576053C21D850F0200480281 /* bang_marry_kill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bang_marry_kill.png; sourceTree = "<group>"; };
+		576053C31D850F0200480281 /* bev_butler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bev_butler.png; sourceTree = "<group>"; };
+		576053C41D850F0200480281 /* dancing_fool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dancing_fool.png; sourceTree = "<group>"; };
+		576053C51D850F0200480281 /* dare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dare.png; sourceTree = "<group>"; };
+		576053C61D850F0200480281 /* distorted_reality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = distorted_reality.png; sourceTree = "<group>"; };
+		576053C71D850F0200480281 /* emoji_butt_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_butt_text.png; sourceTree = "<group>"; };
+		576053C81D850F0200480281 /* glamour_shots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glamour_shots.png; sourceTree = "<group>"; };
+		576053C91D850F0200480281 /* go_back_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go_back_15.png; sourceTree = "<group>"; };
+		576053CA1D850F0200480281 /* house_special.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house_special.png; sourceTree = "<group>"; };
+		576053CB1D850F0200480281 /* human_pictionary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = human_pictionary.png; sourceTree = "<group>"; };
+		576053CC1D850F0200480281 /* jail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jail.png; sourceTree = "<group>"; };
+		576053CD1D850F0200480281 /* lick_slap_fondle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lick_slap_fondle.png; sourceTree = "<group>"; };
+		576053CE1D850F0200480281 /* lip_sync_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lip_sync_star.png; sourceTree = "<group>"; };
+		576053CF1D850F0200480281 /* make_a_rule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = make_a_rule.png; sourceTree = "<group>"; };
+		576053D01D850F0200480281 /* mime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mime.png; sourceTree = "<group>"; };
+		576053D11D850F0200480281 /* name_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name_master.png; sourceTree = "<group>"; };
+		576053D21D850F0200480281 /* never_have_i_ever.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = never_have_i_ever.png; sourceTree = "<group>"; };
+		576053D31D850F0200480281 /* oddly_inspirational.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oddly_inspirational.png; sourceTree = "<group>"; };
+		576053D41D850F0200480281 /* penisland_pen15club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penisland_pen15club.png; sourceTree = "<group>"; };
+		576053D51D850F0200480281 /* pres_trump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pres_trump.png; sourceTree = "<group>"; };
+		576053D61D850F0200480281 /* prisoners_dilemma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prisoners_dilemma.png; sourceTree = "<group>"; };
+		576053D71D850F0200480281 /* quarantine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarantine.png; sourceTree = "<group>"; };
+		576053D81D850F0200480281 /* question_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_master.png; sourceTree = "<group>"; };
+		576053D91D850F0200480281 /* snapchat_paparazzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapchat_paparazzi.png; sourceTree = "<group>"; };
+		576053DA1D850F0200480281 /* survivor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = survivor.png; sourceTree = "<group>"; };
+		576053DB1D850F0200480281 /* take_a_trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = take_a_trip.png; sourceTree = "<group>"; };
+		576053DC1D850F0200480281 /* text_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_master.png; sourceTree = "<group>"; };
+		576053DD1D850F0200480281 /* the_cult_leader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_cult_leader.png; sourceTree = "<group>"; };
+		576053DE1D850F0200480281 /* the_most_likely.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_most_likely.png; sourceTree = "<group>"; };
+		576053DF1D850F0200480281 /* the_roast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_roast.png; sourceTree = "<group>"; };
+		576053E01D850F0200480281 /* the_sneaky_texter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_sneaky_texter.png; sourceTree = "<group>"; };
+		576053E11D850F0200480281 /* the_toast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_toast.png; sourceTree = "<group>"; };
+		576053E21D850F0200480281 /* the_trolls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_trolls.png; sourceTree = "<group>"; };
+		576053E31D850F0200480281 /* the_wormhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_wormhole.png; sourceTree = "<group>"; };
+		576053E41D850F0200480281 /* trivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trivia.png; sourceTree = "<group>"; };
+		576053E51D850F0200480281 /* tunes_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tunes_master.png; sourceTree = "<group>"; };
+		576053E61D850F0200480281 /* would_you_rather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = would_you_rather.png; sourceTree = "<group>"; };
 		5762B56C1CF2765B002CF248 /* instructions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = instructions.html; sourceTree = "<group>"; };
 		5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 		57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheListDetailViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +168,53 @@
 			name = ModelsAndHelpers;
 			sourceTree = "<group>";
 		};
+		576053BE1D850F0200480281 /* CardImages */ = {
+			isa = PBXGroup;
+			children = (
+				576053BF1D850F0200480281 /* accents.png */,
+				576053C01D850F0200480281 /* admission_of_guilt.png */,
+				576053C11D850F0200480281 /* bad_categories.png */,
+				576053C21D850F0200480281 /* bang_marry_kill.png */,
+				576053C31D850F0200480281 /* bev_butler.png */,
+				576053C41D850F0200480281 /* dancing_fool.png */,
+				576053C51D850F0200480281 /* dare.png */,
+				576053C61D850F0200480281 /* distorted_reality.png */,
+				576053C71D850F0200480281 /* emoji_butt_text.png */,
+				576053C81D850F0200480281 /* glamour_shots.png */,
+				576053C91D850F0200480281 /* go_back_15.png */,
+				576053CA1D850F0200480281 /* house_special.png */,
+				576053CB1D850F0200480281 /* human_pictionary.png */,
+				576053CC1D850F0200480281 /* jail.png */,
+				576053CD1D850F0200480281 /* lick_slap_fondle.png */,
+				576053CE1D850F0200480281 /* lip_sync_star.png */,
+				576053CF1D850F0200480281 /* make_a_rule.png */,
+				576053D01D850F0200480281 /* mime.png */,
+				576053D11D850F0200480281 /* name_master.png */,
+				576053D21D850F0200480281 /* never_have_i_ever.png */,
+				576053D31D850F0200480281 /* oddly_inspirational.png */,
+				576053D41D850F0200480281 /* penisland_pen15club.png */,
+				576053D51D850F0200480281 /* pres_trump.png */,
+				576053D61D850F0200480281 /* prisoners_dilemma.png */,
+				576053D71D850F0200480281 /* quarantine.png */,
+				576053D81D850F0200480281 /* question_master.png */,
+				576053D91D850F0200480281 /* snapchat_paparazzi.png */,
+				576053DA1D850F0200480281 /* survivor.png */,
+				576053DB1D850F0200480281 /* take_a_trip.png */,
+				576053DC1D850F0200480281 /* text_master.png */,
+				576053DD1D850F0200480281 /* the_cult_leader.png */,
+				576053DE1D850F0200480281 /* the_most_likely.png */,
+				576053DF1D850F0200480281 /* the_roast.png */,
+				576053E01D850F0200480281 /* the_sneaky_texter.png */,
+				576053E11D850F0200480281 /* the_toast.png */,
+				576053E21D850F0200480281 /* the_trolls.png */,
+				576053E31D850F0200480281 /* the_wormhole.png */,
+				576053E41D850F0200480281 /* trivia.png */,
+				576053E51D850F0200480281 /* tunes_master.png */,
+				576053E61D850F0200480281 /* would_you_rather.png */,
+			);
+			path = CardImages;
+			sourceTree = "<group>";
+		};
 		57ED4DDC1CF24919008F1CD3 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +238,7 @@
 				576053BD1D85077400480281 /* ModelsAndHelpers */,
 				576053BC1D8506ED00480281 /* Layout */,
 				576053BB1D8506E400480281 /* plist */,
+				576053BE1D850F0200480281 /* CardImages */,
 				57ED4DE81CF24919008F1CD3 /* AppDelegate.swift */,
 				57ED4DEF1CF24919008F1CD3 /* Assets.xcassets */,
 			);
@@ -177,10 +305,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576054041D850F0200480281 /* text_master.png in Resources */,
+				5760540A1D850F0200480281 /* the_trolls.png in Resources */,
+				5760540D1D850F0200480281 /* tunes_master.png in Resources */,
+				576053E91D850F0200480281 /* bad_categories.png in Resources */,
+				576054091D850F0200480281 /* the_toast.png in Resources */,
+				576053E81D850F0200480281 /* admission_of_guilt.png in Resources */,
+				576053F31D850F0200480281 /* human_pictionary.png in Resources */,
+				576054001D850F0200480281 /* question_master.png in Resources */,
+				576053E71D850F0200480281 /* accents.png in Resources */,
+				576054011D850F0200480281 /* snapchat_paparazzi.png in Resources */,
+				576053EE1D850F0200480281 /* distorted_reality.png in Resources */,
+				576053FE1D850F0200480281 /* prisoners_dilemma.png in Resources */,
+				576053EA1D850F0200480281 /* bang_marry_kill.png in Resources */,
+				576053EC1D850F0200480281 /* dancing_fool.png in Resources */,
+				576053ED1D850F0200480281 /* dare.png in Resources */,
+				576053FF1D850F0200480281 /* quarantine.png in Resources */,
 				57ED4DF31CF24919008F1CD3 /* LaunchScreen.storyboard in Resources */,
+				576054081D850F0200480281 /* the_sneaky_texter.png in Resources */,
+				576053FB1D850F0200480281 /* oddly_inspirational.png in Resources */,
+				576053F21D850F0200480281 /* house_special.png in Resources */,
+				576054021D850F0200480281 /* survivor.png in Resources */,
+				5760540C1D850F0200480281 /* trivia.png in Resources */,
+				576053F61D850F0200480281 /* lip_sync_star.png in Resources */,
 				5762B56D1CF2765B002CF248 /* instructions.html in Resources */,
+				576053FA1D850F0200480281 /* never_have_i_ever.png in Resources */,
+				576053F41D850F0200480281 /* jail.png in Resources */,
+				576053F91D850F0200480281 /* name_master.png in Resources */,
 				57ED4DF01CF24919008F1CD3 /* Assets.xcassets in Resources */,
+				576054031D850F0200480281 /* take_a_trip.png in Resources */,
+				576054051D850F0200480281 /* the_cult_leader.png in Resources */,
+				576053F51D850F0200480281 /* lick_slap_fondle.png in Resources */,
+				576053FC1D850F0200480281 /* penisland_pen15club.png in Resources */,
+				576053EF1D850F0200480281 /* emoji_butt_text.png in Resources */,
 				57ED4DEE1CF24919008F1CD3 /* Main.storyboard in Resources */,
+				576053EB1D850F0200480281 /* bev_butler.png in Resources */,
+				576053FD1D850F0200480281 /* pres_trump.png in Resources */,
+				576053F71D850F0200480281 /* make_a_rule.png in Resources */,
+				576053F81D850F0200480281 /* mime.png in Resources */,
+				5760540B1D850F0200480281 /* the_wormhole.png in Resources */,
+				576053F01D850F0200480281 /* glamour_shots.png in Resources */,
+				576054061D850F0200480281 /* the_most_likely.png in Resources */,
+				576053F11D850F0200480281 /* go_back_15.png in Resources */,
+				576054071D850F0200480281 /* the_roast.png in Resources */,
+				5760540E1D850F0200480281 /* would_you_rather.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
