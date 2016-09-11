@@ -218,7 +218,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8Xe-FI-Oux">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -257,12 +257,18 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Card Description Text Goes Here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Te1-HN-n39" userLabel="Short Title">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="NcO-Si-9uO"/>
+                                    <constraint firstAttribute="height" constant="25" id="NcO-Si-9uO"/>
                                     <constraint firstAttribute="width" constant="250" id="u19-mo-4PA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Divider Line" translatesAutoresizingMaskIntoConstraints="NO" id="DdR-Yv-IYe">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="XWj-hM-Ej0"/>
+                                    <constraint firstAttribute="height" constant="5" id="lV3-ZZ-LO5"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -273,12 +279,14 @@
                             <constraint firstItem="Vbh-73-iHA" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="5qG-7U-i57"/>
                             <constraint firstItem="mKs-Rc-lHO" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="25" id="8sl-h4-BfY"/>
                             <constraint firstItem="mKs-Rc-lHO" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="I00-tU-b1Q"/>
-                            <constraint firstItem="Te1-HN-n39" firstAttribute="top" secondItem="mKs-Rc-lHO" secondAttribute="bottom" constant="30" id="IFK-Le-S3n"/>
+                            <constraint firstItem="Te1-HN-n39" firstAttribute="top" secondItem="mKs-Rc-lHO" secondAttribute="bottom" constant="10" id="IFK-Le-S3n"/>
+                            <constraint firstItem="DdR-Yv-IYe" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="Ias-6O-chS"/>
                             <constraint firstItem="Te1-HN-n39" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="bFh-MU-iYz"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="20" id="gU8-QJ-hYu"/>
-                            <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="Te1-HN-n39" secondAttribute="bottom" constant="5" id="hJg-h0-9GM"/>
+                            <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="DdR-Yv-IYe" secondAttribute="bottom" constant="1" id="hRR-1X-A7K"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="leading" secondItem="lY4-0m-G19" secondAttribute="leadingMargin" constant="10" id="r9N-7K-3Xg"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="centerY" secondItem="lY4-0m-G19" secondAttribute="centerY" id="sOx-Pq-mu5"/>
+                            <constraint firstItem="DdR-Yv-IYe" firstAttribute="top" secondItem="Te1-HN-n39" secondAttribute="bottom" constant="5" id="tFc-sT-9K8"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="xwf-HK-1dW"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" id="y3c-Ao-awf"/>
                         </constraints>
@@ -307,7 +315,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cardImage" destination="mKs-Rc-lHO" id="2Vb-ff-CRf"/>
-                        <outlet property="cardTitle" destination="Te1-HN-n39" id="OeX-8U-Rs6"/>
                         <outlet property="rulesRandomizer" destination="Vbh-73-iHA" id="FoL-En-GU6"/>
                         <outlet property="rulesText" destination="8Xe-FI-Oux" id="luQ-fp-qlf"/>
                         <outlet property="shortTitle" destination="Te1-HN-n39" id="Qwd-U9-SFm"/>
@@ -403,6 +410,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Divider Line" width="651" height="10"/>
         <image name="Logo" width="300" height="199"/>
         <image name="Palm Tree Background Image" width="700" height="1245"/>
     </resources>

@@ -51,6 +51,5 @@ class TheListDetailViewController: UIViewController {
         rulesText.text = myCard?.rule_description
         //Make this display something, then have it display from the array
         cardImage = UIImage(named: "the_toast.png")
-        print("running fillsViewsWithCard")
     }
 }

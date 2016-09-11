@@ -18,7 +18,6 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
         imageView.frame = CGRectMake(4, 5, imageView.frame.size.width, imageView.frame.size.width)
         backView.addSubview(imageView)
         self.navigationItem.titleView = imageView
-       
     }
     
     // TableView Delegate and Datasource
@@ -40,7 +39,6 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
         if selectedCard.rules != nil {
         cell.accessoryView = UIImageView.init(image: UIImage(named: "flash icon"))
         }
-        
         return cell
     }
     
