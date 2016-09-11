@@ -16,7 +16,7 @@ class TheListDetailViewController: UIViewController {
     
     @IBAction func rightSwipe(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true)
-        }
+    }
     
     @IBAction func showAlert() {
         // Generate a random response and display it
@@ -48,6 +48,8 @@ class TheListDetailViewController: UIViewController {
             return
         }
         rulesText.text = myCard?.rule_description
-        cardImage = myCard!.image
+        //Make this display something, then have it display from the array
+        cardImage = UIImage(named: "the_toast.png")
+        print("running fillsViewsWithCard")
     }
 }
