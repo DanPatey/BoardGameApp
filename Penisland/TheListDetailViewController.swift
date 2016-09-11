@@ -22,8 +22,8 @@ class TheListDetailViewController: UIViewController {
         // Generate a random response and display it
         let randomIndex = Int(arc4random_uniform(UInt32((myCard?.rules!.count)!)))
         let randomItem = myCard?.rules![randomIndex]
-
-        let alertController = UIAlertController(title: "The Randomizer!", message: randomItem, preferredStyle: .Alert)
+        
+        let alertController = UIAlertController(title: "Generate Random", message: randomItem, preferredStyle: .Alert)
         let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
         alertController.addAction(defaultAction)
         presentViewController(alertController, animated: true, completion: nil)
@@ -40,12 +40,12 @@ class TheListDetailViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         fillViewsWithCard()
+        rulesRandomizer.layer.cornerRadius = 25
     }
     
     func fillViewsWithCard() {
@@ -53,9 +53,7 @@ class TheListDetailViewController: UIViewController {
             return
         }
         shortTitle.text = myCard?.short_title
-        rulesText.text = myCard?.rule_description
-
+        rulesText.text = myCard?.rule_description        
         cardImage.image = myCard?.image
-        
     }
 }
