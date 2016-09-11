@@ -218,7 +218,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8Xe-FI-Oux">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -232,6 +232,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vbh-73-iHA">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="XUf-IB-dvB"/>
+                                    <constraint firstAttribute="height" constant="45" id="jY0-n5-IeE"/>
+                                    <constraint firstAttribute="width" constant="300" id="yVi-y9-gae"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Generate Random">
@@ -246,25 +248,38 @@
                                     <action selector="showAlert" destination="Vhz-3s-Qv0" eventType="touchUpInside" id="Hfw-RQ-HIe"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mKs-Rc-lHO"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mKs-Rc-lHO">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="2Bv-iO-7il"/>
+                                    <constraint firstAttribute="width" constant="120" id="2Vp-Zt-Ive"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Card Description Text Goes Here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Te1-HN-n39">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="NcO-Si-9uO"/>
+                                    <constraint firstAttribute="width" constant="250" id="u19-mo-4PA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="G5w-Id-e6X"/>
-                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="10" id="Ibr-Hs-C6a"/>
-                            <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="mKs-Rc-lHO" secondAttribute="bottom" constant="15" id="Lg1-cm-ChO"/>
-                            <constraint firstItem="8Xe-FI-Oux" firstAttribute="centerY" secondItem="lY4-0m-G19" secondAttribute="centerY" id="Rz9-7D-WRx"/>
-                            <constraint firstItem="Vbh-73-iHA" firstAttribute="top" secondItem="8Xe-FI-Oux" secondAttribute="bottom" constant="40" id="SA8-Nq-iWw">
-                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
-                            </constraint>
-                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="leading" secondItem="lY4-0m-G19" secondAttribute="leadingMargin" constant="51" id="SAS-VD-xR3"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Vbh-73-iHA" secondAttribute="trailing" constant="20" id="bKX-KF-bbo"/>
+                            <constraint firstItem="Vbh-73-iHA" firstAttribute="top" secondItem="8Xe-FI-Oux" secondAttribute="bottom" constant="30" id="4uo-xY-RFL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8Xe-FI-Oux" secondAttribute="trailing" constant="10" id="5E7-EO-HGT"/>
+                            <constraint firstItem="Vbh-73-iHA" firstAttribute="top" secondItem="8Xe-FI-Oux" secondAttribute="bottom" constant="30" id="5gG-R5-zVu"/>
+                            <constraint firstItem="Vbh-73-iHA" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="5qG-7U-i57"/>
+                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="25" id="8sl-h4-BfY"/>
+                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="I00-tU-b1Q"/>
+                            <constraint firstItem="Te1-HN-n39" firstAttribute="top" secondItem="mKs-Rc-lHO" secondAttribute="bottom" constant="30" id="IFK-Le-S3n"/>
+                            <constraint firstItem="Te1-HN-n39" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="bFh-MU-iYz"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="20" id="gU8-QJ-hYu"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="8Xe-FI-Oux" secondAttribute="trailing" constant="10" id="hxT-xq-fNk"/>
-                            <constraint firstItem="Vbh-73-iHA" firstAttribute="leading" secondItem="lY4-0m-G19" secondAttribute="leadingMargin" constant="20" id="nTl-RY-HCd"/>
+                            <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="Te1-HN-n39" secondAttribute="bottom" constant="5" id="hJg-h0-9GM"/>
+                            <constraint firstItem="8Xe-FI-Oux" firstAttribute="leading" secondItem="lY4-0m-G19" secondAttribute="leadingMargin" constant="10" id="r9N-7K-3Xg"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="centerY" secondItem="lY4-0m-G19" secondAttribute="centerY" id="sOx-Pq-mu5"/>
-                            <constraint firstItem="8Xe-FI-Oux" firstAttribute="leading" secondItem="lY4-0m-G19" secondAttribute="leadingMargin" constant="10" id="y0v-no-Fgu"/>
+                            <constraint firstItem="8Xe-FI-Oux" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="xwf-HK-1dW"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" id="y3c-Ao-awf"/>
                         </constraints>
                         <variation key="default">
@@ -303,7 +318,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3038" y="307"/>
+            <point key="canvasLocation" x="3037.5999999999999" y="306.29685157421289"/>
         </scene>
         <!--Instructions View Controller-->
         <scene sceneID="0RO-So-FWt">
