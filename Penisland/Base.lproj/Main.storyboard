@@ -254,7 +254,7 @@
                                     <constraint firstAttribute="width" constant="120" id="2Vp-Zt-Ive"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Card Description Text Goes Here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Te1-HN-n39">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Card Description Text Goes Here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Te1-HN-n39" userLabel="Short Title">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="NcO-Si-9uO"/>
@@ -307,8 +307,10 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cardImage" destination="mKs-Rc-lHO" id="2Vb-ff-CRf"/>
+                        <outlet property="cardTitle" destination="Te1-HN-n39" id="OeX-8U-Rs6"/>
                         <outlet property="rulesRandomizer" destination="Vbh-73-iHA" id="FoL-En-GU6"/>
                         <outlet property="rulesText" destination="8Xe-FI-Oux" id="luQ-fp-qlf"/>
+                        <outlet property="shortTitle" destination="Te1-HN-n39" id="Qwd-U9-SFm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ua8-L4-WDq" userLabel="First Responder" sceneMemberID="firstResponder"/>

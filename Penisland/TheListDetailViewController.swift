@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import Foundation
 
 class TheListDetailViewController: UIViewController {
+    @IBOutlet weak var shortTitle: UITextView!
     @IBOutlet weak var rulesText: UITextField!
     @IBOutlet weak var rulesRandomizer: UIButton!
     @IBOutlet weak var cardImage: UIImage!
@@ -47,6 +47,7 @@ class TheListDetailViewController: UIViewController {
         if self.view == nil {
             return
         }
+        shortTitle.text = myCard?.short_title
         rulesText.text = myCard?.rule_description
         //Make this display something, then have it display from the array
         cardImage = UIImage(named: "the_toast.png")
