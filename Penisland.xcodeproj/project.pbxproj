@@ -80,9 +80,9 @@
 		576053BD1D85077400480281 /* ModelsAndHelpers */ = {
 			isa = PBXGroup;
 			children = (
-				9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */,
 				57C9BAF91CF7F03B00B11F01 /* Card.swift */,
 				57C9BAFB1CF7F21600B11F01 /* CardManager.swift */,
+				9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */,
 				5762B56C1CF2765B002CF248 /* instructions.html */,
 			);
 			name = ModelsAndHelpers;
