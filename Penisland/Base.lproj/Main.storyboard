@@ -261,7 +261,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Card Description Text Goes Here" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Te1-HN-n39" userLabel="Short Title">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="NcO-Si-9uO"/>
+                                    <constraint firstAttribute="height" constant="30" id="NcO-Si-9uO"/>
                                     <constraint firstAttribute="width" constant="250" id="u19-mo-4PA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -282,7 +282,7 @@
                             <constraint firstItem="mKs-Rc-lHO" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="25" id="8sl-h4-BfY"/>
                             <constraint firstItem="K5A-BP-Mk1" firstAttribute="top" secondItem="Vbh-73-iHA" secondAttribute="bottom" constant="30" id="COM-CG-sob"/>
                             <constraint firstItem="mKs-Rc-lHO" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="I00-tU-b1Q"/>
-                            <constraint firstItem="Te1-HN-n39" firstAttribute="top" secondItem="mKs-Rc-lHO" secondAttribute="bottom" constant="10" id="IFK-Le-S3n"/>
+                            <constraint firstItem="Te1-HN-n39" firstAttribute="top" secondItem="mKs-Rc-lHO" secondAttribute="bottom" constant="25" id="IFK-Le-S3n"/>
                             <constraint firstItem="DdR-Yv-IYe" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="Ias-6O-chS"/>
                             <constraint firstItem="Te1-HN-n39" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="bFh-MU-iYz"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="20" id="gU8-QJ-hYu"/>
