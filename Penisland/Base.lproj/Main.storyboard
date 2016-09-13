@@ -17,7 +17,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Palm Tree Background Image" translatesAutoresizingMaskIntoConstraints="NO" id="GDk-uU-fsI"/>
@@ -172,7 +172,7 @@
                         <viewControllerLayoutGuide type="bottom" id="USB-vB-oNw"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IOM-p2-FXS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="d8E-UT-UIo">
@@ -213,7 +213,7 @@
                         <viewControllerLayoutGuide type="bottom" id="K5A-BP-Mk1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="lY4-0m-G19">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8Xe-FI-Oux">
@@ -227,6 +227,9 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact">
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
@@ -279,17 +282,17 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="8Xe-FI-Oux" secondAttribute="trailing" constant="10" id="5E7-EO-HGT"/>
                             <constraint firstItem="Vbh-73-iHA" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="5qG-7U-i57"/>
-                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="25" id="8sl-h4-BfY"/>
+                            <constraint firstItem="mKs-Rc-lHO" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="10" id="8sl-h4-BfY"/>
                             <constraint firstItem="K5A-BP-Mk1" firstAttribute="top" secondItem="Vbh-73-iHA" secondAttribute="bottom" constant="30" id="COM-CG-sob"/>
                             <constraint firstItem="mKs-Rc-lHO" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="I00-tU-b1Q"/>
-                            <constraint firstItem="Te1-HN-n39" firstAttribute="top" secondItem="mKs-Rc-lHO" secondAttribute="bottom" constant="25" id="IFK-Le-S3n"/>
+                            <constraint firstItem="Te1-HN-n39" firstAttribute="top" secondItem="mKs-Rc-lHO" secondAttribute="bottom" constant="5" id="IFK-Le-S3n"/>
                             <constraint firstItem="DdR-Yv-IYe" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="Ias-6O-chS"/>
                             <constraint firstItem="Te1-HN-n39" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="bFh-MU-iYz"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" constant="20" id="gU8-QJ-hYu"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="DdR-Yv-IYe" secondAttribute="bottom" constant="1" id="hRR-1X-A7K"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="leading" secondItem="lY4-0m-G19" secondAttribute="leadingMargin" constant="10" id="r9N-7K-3Xg"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="centerY" secondItem="lY4-0m-G19" secondAttribute="centerY" id="sOx-Pq-mu5"/>
-                            <constraint firstItem="DdR-Yv-IYe" firstAttribute="top" secondItem="Te1-HN-n39" secondAttribute="bottom" constant="5" id="tFc-sT-9K8"/>
+                            <constraint firstItem="DdR-Yv-IYe" firstAttribute="top" secondItem="Te1-HN-n39" secondAttribute="bottom" id="tFc-sT-9K8"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="centerX" secondItem="lY4-0m-G19" secondAttribute="centerX" id="xwf-HK-1dW"/>
                             <constraint firstItem="8Xe-FI-Oux" firstAttribute="top" secondItem="LSJ-cw-TOn" secondAttribute="bottom" id="y3c-Ao-awf"/>
                         </constraints>
@@ -341,7 +344,7 @@
                         <viewControllerLayoutGuide type="bottom" id="uVW-rz-Jbq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wub-56-V6f">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qaY-E4-DdY">
