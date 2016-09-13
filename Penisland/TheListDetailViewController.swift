@@ -7,12 +7,12 @@
 //
 
 import UIKit
-import Foundation
 
 class TheListDetailViewController: UIViewController {
+    @IBOutlet weak var shortTitle: UITextView!
     @IBOutlet weak var rulesText: UITextField!
-    //@IBOutlet weak var rulesText: UITextView!
     @IBOutlet weak var rulesRandomizer: UIButton!
+    @IBOutlet weak var cardImage: UIImageView!
     
     @IBAction func rightSwipe(sender: AnyObject) {
         self.navigationController?.popViewControllerAnimated(true)
@@ -22,8 +22,8 @@ class TheListDetailViewController: UIViewController {
         // Generate a random response and display it
         let randomIndex = Int(arc4random_uniform(UInt32((myCard?.rules!.count)!)))
         let randomItem = myCard?.rules![randomIndex]
-
-        let alertController = UIAlertController(title: "The Randomizer!", message: randomItem, preferredStyle: .Alert)
+        
+        let alertController = UIAlertController(title: "Generate Random", message: randomItem, preferredStyle: .Alert)
         let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
         alertController.addAction(defaultAction)
         presentViewController(alertController, animated: true, completion: nil)
@@ -40,15 +40,20 @@ class TheListDetailViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         fillViewsWithCard()
+        rulesRandomizer.layer.cornerRadius = 25
     }
     
     func fillViewsWithCard() {
         if self.view == nil {
             return
         }
-        rulesText.text = myCard?.rule_description
+        shortTitle.text = myCard?.short_title
+        rulesText.text = myCard?.rule_description        
+        cardImage.image = myCard?.image
     }
 }
-
-

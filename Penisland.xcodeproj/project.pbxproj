@@ -18,6 +18,46 @@
 		57ED4DEE1CF24919008F1CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED4DEC1CF24919008F1CD3 /* Main.storyboard */; };
 		57ED4DF01CF24919008F1CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57ED4DEF1CF24919008F1CD3 /* Assets.xcassets */; };
 		57ED4DF31CF24919008F1CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED4DF11CF24919008F1CD3 /* LaunchScreen.storyboard */; };
+		998B24831D86236A00B65BAA /* would_you_rather.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B245B1D86236A00B65BAA /* would_you_rather.png */; };
+		998B24841D86236A00B65BAA /* admission_of_guilt.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B245C1D86236A00B65BAA /* admission_of_guilt.png */; };
+		998B24851D86236A00B65BAA /* bad_categories.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B245D1D86236A00B65BAA /* bad_categories.png */; };
+		998B24861D86236A00B65BAA /* bang_marry_kill.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B245E1D86236A00B65BAA /* bang_marry_kill.png */; };
+		998B24871D86236A00B65BAA /* beverage_butler.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B245F1D86236A00B65BAA /* beverage_butler.png */; };
+		998B24881D86236A00B65BAA /* dancing_fool.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24601D86236A00B65BAA /* dancing_fool.png */; };
+		998B24891D86236A00B65BAA /* dare.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24611D86236A00B65BAA /* dare.png */; };
+		998B248A1D86236A00B65BAA /* distorted_reality.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24621D86236A00B65BAA /* distorted_reality.png */; };
+		998B248B1D86236A00B65BAA /* emoji_butt_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24631D86236A00B65BAA /* emoji_butt_text.png */; };
+		998B248C1D86236A00B65BAA /* go_back_15_spaces.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24641D86236A00B65BAA /* go_back_15_spaces.png */; };
+		998B248D1D86236A00B65BAA /* house_special.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24651D86236A00B65BAA /* house_special.png */; };
+		998B248E1D86236A00B65BAA /* human_pictionary.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24661D86236A00B65BAA /* human_pictionary.png */; };
+		998B248F1D86236A00B65BAA /* lick_slap_fondle.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24671D86236A00B65BAA /* lick_slap_fondle.png */; };
+		998B24901D86236A00B65BAA /* lip_sync_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24681D86236A00B65BAA /* lip_sync_star.png */; };
+		998B24911D86236A00B65BAA /* make_a_rule.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24691D86236A00B65BAA /* make_a_rule.png */; };
+		998B24921D86236A00B65BAA /* name_master.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B246A1D86236A00B65BAA /* name_master.png */; };
+		998B24931D86236A00B65BAA /* never_have_i_ever.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B246B1D86236A00B65BAA /* never_have_i_ever.png */; };
+		998B24941D86236A00B65BAA /* oddly_inspirational.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B246C1D86236A00B65BAA /* oddly_inspirational.png */; };
+		998B24951D86236A00B65BAA /* penisland_pen15club.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B246D1D86236A00B65BAA /* penisland_pen15club.png */; };
+		998B24961D86236A00B65BAA /* president_trump.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B246E1D86236A00B65BAA /* president_trump.png */; };
+		998B24971D86236A00B65BAA /* quarantine.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B246F1D86236A00B65BAA /* quarantine.png */; };
+		998B24981D86236A00B65BAA /* question_master.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24701D86236A00B65BAA /* question_master.png */; };
+		998B24991D86236A00B65BAA /* snapchat_paparazzi.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24711D86236A00B65BAA /* snapchat_paparazzi.png */; };
+		998B249A1D86236A00B65BAA /* survivor.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24721D86236A00B65BAA /* survivor.png */; };
+		998B249B1D86236A00B65BAA /* take_a_trip.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24731D86236A00B65BAA /* take_a_trip.png */; };
+		998B249C1D86236A00B65BAA /* the_cult_leader.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24741D86236A00B65BAA /* the_cult_leader.png */; };
+		998B249D1D86236A00B65BAA /* the_roast.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24751D86236A00B65BAA /* the_roast.png */; };
+		998B249E1D86236A00B65BAA /* the_sneaky_texter.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24761D86236A00B65BAA /* the_sneaky_texter.png */; };
+		998B249F1D86236A00B65BAA /* the_toast.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24771D86236A00B65BAA /* the_toast.png */; };
+		998B24A01D86236A00B65BAA /* the_wormhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24781D86236A00B65BAA /* the_wormhole.png */; };
+		998B24A11D86236A00B65BAA /* trivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24791D86236A00B65BAA /* trivia.png */; };
+		998B24A21D86236A00B65BAA /* tunes_master.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B247A1D86236A00B65BAA /* tunes_master.png */; };
+		998B24A31D86236A00B65BAA /* glamour_shots.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B247B1D86236A00B65BAA /* glamour_shots.png */; };
+		998B24A41D86236A00B65BAA /* jail.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B247C1D86236A00B65BAA /* jail.png */; };
+		998B24A51D86236A00B65BAA /* mime.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B247D1D86236A00B65BAA /* mime.png */; };
+		998B24A61D86236A00B65BAA /* the_most_likely_to.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B247E1D86236A00B65BAA /* the_most_likely_to.png */; };
+		998B24A71D86236A00B65BAA /* the_prisoners_dilemma.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B247F1D86236A00B65BAA /* the_prisoners_dilemma.png */; };
+		998B24A81D86236A00B65BAA /* the_text_master.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24801D86236A00B65BAA /* the_text_master.png */; };
+		998B24A91D86236A00B65BAA /* the_trolls.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24811D86236A00B65BAA /* the_trolls.png */; };
+		998B24AA1D86236A00B65BAA /* accents.png in Resources */ = {isa = PBXBuildFile; fileRef = 998B24821D86236A00B65BAA /* accents.png */; };
 		9996A9651D5FE59D006C6DEE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +75,46 @@
 		57ED4DEF1CF24919008F1CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57ED4DF21CF24919008F1CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57ED4DF41CF24919008F1CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998B245B1D86236A00B65BAA /* would_you_rather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = would_you_rather.png; sourceTree = "<group>"; };
+		998B245C1D86236A00B65BAA /* admission_of_guilt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = admission_of_guilt.png; sourceTree = "<group>"; };
+		998B245D1D86236A00B65BAA /* bad_categories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bad_categories.png; sourceTree = "<group>"; };
+		998B245E1D86236A00B65BAA /* bang_marry_kill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bang_marry_kill.png; sourceTree = "<group>"; };
+		998B245F1D86236A00B65BAA /* beverage_butler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beverage_butler.png; sourceTree = "<group>"; };
+		998B24601D86236A00B65BAA /* dancing_fool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dancing_fool.png; sourceTree = "<group>"; };
+		998B24611D86236A00B65BAA /* dare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dare.png; sourceTree = "<group>"; };
+		998B24621D86236A00B65BAA /* distorted_reality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = distorted_reality.png; sourceTree = "<group>"; };
+		998B24631D86236A00B65BAA /* emoji_butt_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji_butt_text.png; sourceTree = "<group>"; };
+		998B24641D86236A00B65BAA /* go_back_15_spaces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go_back_15_spaces.png; sourceTree = "<group>"; };
+		998B24651D86236A00B65BAA /* house_special.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house_special.png; sourceTree = "<group>"; };
+		998B24661D86236A00B65BAA /* human_pictionary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = human_pictionary.png; sourceTree = "<group>"; };
+		998B24671D86236A00B65BAA /* lick_slap_fondle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lick_slap_fondle.png; sourceTree = "<group>"; };
+		998B24681D86236A00B65BAA /* lip_sync_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lip_sync_star.png; sourceTree = "<group>"; };
+		998B24691D86236A00B65BAA /* make_a_rule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = make_a_rule.png; sourceTree = "<group>"; };
+		998B246A1D86236A00B65BAA /* name_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = name_master.png; sourceTree = "<group>"; };
+		998B246B1D86236A00B65BAA /* never_have_i_ever.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = never_have_i_ever.png; sourceTree = "<group>"; };
+		998B246C1D86236A00B65BAA /* oddly_inspirational.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oddly_inspirational.png; sourceTree = "<group>"; };
+		998B246D1D86236A00B65BAA /* penisland_pen15club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penisland_pen15club.png; sourceTree = "<group>"; };
+		998B246E1D86236A00B65BAA /* president_trump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = president_trump.png; sourceTree = "<group>"; };
+		998B246F1D86236A00B65BAA /* quarantine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarantine.png; sourceTree = "<group>"; };
+		998B24701D86236A00B65BAA /* question_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_master.png; sourceTree = "<group>"; };
+		998B24711D86236A00B65BAA /* snapchat_paparazzi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapchat_paparazzi.png; sourceTree = "<group>"; };
+		998B24721D86236A00B65BAA /* survivor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = survivor.png; sourceTree = "<group>"; };
+		998B24731D86236A00B65BAA /* take_a_trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = take_a_trip.png; sourceTree = "<group>"; };
+		998B24741D86236A00B65BAA /* the_cult_leader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_cult_leader.png; sourceTree = "<group>"; };
+		998B24751D86236A00B65BAA /* the_roast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_roast.png; sourceTree = "<group>"; };
+		998B24761D86236A00B65BAA /* the_sneaky_texter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_sneaky_texter.png; sourceTree = "<group>"; };
+		998B24771D86236A00B65BAA /* the_toast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_toast.png; sourceTree = "<group>"; };
+		998B24781D86236A00B65BAA /* the_wormhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_wormhole.png; sourceTree = "<group>"; };
+		998B24791D86236A00B65BAA /* trivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trivia.png; sourceTree = "<group>"; };
+		998B247A1D86236A00B65BAA /* tunes_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tunes_master.png; sourceTree = "<group>"; };
+		998B247B1D86236A00B65BAA /* glamour_shots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glamour_shots.png; sourceTree = "<group>"; };
+		998B247C1D86236A00B65BAA /* jail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jail.png; sourceTree = "<group>"; };
+		998B247D1D86236A00B65BAA /* mime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mime.png; sourceTree = "<group>"; };
+		998B247E1D86236A00B65BAA /* the_most_likely_to.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_most_likely_to.png; sourceTree = "<group>"; };
+		998B247F1D86236A00B65BAA /* the_prisoners_dilemma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_prisoners_dilemma.png; sourceTree = "<group>"; };
+		998B24801D86236A00B65BAA /* the_text_master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_text_master.png; sourceTree = "<group>"; };
+		998B24811D86236A00B65BAA /* the_trolls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_trolls.png; sourceTree = "<group>"; };
+		998B24821D86236A00B65BAA /* accents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accents.png; sourceTree = "<group>"; };
 		9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +129,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		576053BA1D8506C100480281 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57ED4DEA1CF24919008F1CD3 /* ViewController.swift */,
+				5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */,
+				57D90E811CF2598C00410284 /* TheListViewController.swift */,
+				57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		576053BB1D8506E400480281 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				57ED4DF41CF24919008F1CD3 /* Info.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		576053BC1D8506ED00480281 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				57ED4DEC1CF24919008F1CD3 /* Main.storyboard */,
+				57ED4DF11CF24919008F1CD3 /* LaunchScreen.storyboard */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		576053BD1D85077400480281 /* ModelsAndHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				57C9BAF91CF7F03B00B11F01 /* Card.swift */,
+				57C9BAFB1CF7F21600B11F01 /* CardManager.swift */,
+				9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */,
+				5762B56C1CF2765B002CF248 /* instructions.html */,
+			);
+			name = ModelsAndHelpers;
+			sourceTree = "<group>";
+		};
+		576053BE1D850F0200480281 /* CardImages */ = {
+			isa = PBXGroup;
+			children = (
+				998B245B1D86236A00B65BAA /* would_you_rather.png */,
+				998B245C1D86236A00B65BAA /* admission_of_guilt.png */,
+				998B245D1D86236A00B65BAA /* bad_categories.png */,
+				998B245E1D86236A00B65BAA /* bang_marry_kill.png */,
+				998B245F1D86236A00B65BAA /* beverage_butler.png */,
+				998B24601D86236A00B65BAA /* dancing_fool.png */,
+				998B24611D86236A00B65BAA /* dare.png */,
+				998B24621D86236A00B65BAA /* distorted_reality.png */,
+				998B24631D86236A00B65BAA /* emoji_butt_text.png */,
+				998B24641D86236A00B65BAA /* go_back_15_spaces.png */,
+				998B24651D86236A00B65BAA /* house_special.png */,
+				998B24661D86236A00B65BAA /* human_pictionary.png */,
+				998B24671D86236A00B65BAA /* lick_slap_fondle.png */,
+				998B24681D86236A00B65BAA /* lip_sync_star.png */,
+				998B24691D86236A00B65BAA /* make_a_rule.png */,
+				998B246A1D86236A00B65BAA /* name_master.png */,
+				998B246B1D86236A00B65BAA /* never_have_i_ever.png */,
+				998B246C1D86236A00B65BAA /* oddly_inspirational.png */,
+				998B246D1D86236A00B65BAA /* penisland_pen15club.png */,
+				998B246E1D86236A00B65BAA /* president_trump.png */,
+				998B246F1D86236A00B65BAA /* quarantine.png */,
+				998B24701D86236A00B65BAA /* question_master.png */,
+				998B24711D86236A00B65BAA /* snapchat_paparazzi.png */,
+				998B24721D86236A00B65BAA /* survivor.png */,
+				998B24731D86236A00B65BAA /* take_a_trip.png */,
+				998B24741D86236A00B65BAA /* the_cult_leader.png */,
+				998B24751D86236A00B65BAA /* the_roast.png */,
+				998B24761D86236A00B65BAA /* the_sneaky_texter.png */,
+				998B24771D86236A00B65BAA /* the_toast.png */,
+				998B24781D86236A00B65BAA /* the_wormhole.png */,
+				998B24791D86236A00B65BAA /* trivia.png */,
+				998B247A1D86236A00B65BAA /* tunes_master.png */,
+				998B247B1D86236A00B65BAA /* glamour_shots.png */,
+				998B247C1D86236A00B65BAA /* jail.png */,
+				998B247D1D86236A00B65BAA /* mime.png */,
+				998B247E1D86236A00B65BAA /* the_most_likely_to.png */,
+				998B247F1D86236A00B65BAA /* the_prisoners_dilemma.png */,
+				998B24801D86236A00B65BAA /* the_text_master.png */,
+				998B24811D86236A00B65BAA /* the_trolls.png */,
+				998B24821D86236A00B65BAA /* accents.png */,
+			);
+			path = CardImages;
+			sourceTree = "<group>";
+		};
 		57ED4DDC1CF24919008F1CD3 = {
 			isa = PBXGroup;
 			children = (
@@ -68,18 +234,12 @@
 		57ED4DE71CF24919008F1CD3 /* Penisland */ = {
 			isa = PBXGroup;
 			children = (
+				576053BA1D8506C100480281 /* ViewControllers */,
+				576053BD1D85077400480281 /* ModelsAndHelpers */,
+				576053BC1D8506ED00480281 /* Layout */,
+				576053BE1D850F0200480281 /* CardImages */,
+				576053BB1D8506E400480281 /* plist */,
 				57ED4DE81CF24919008F1CD3 /* AppDelegate.swift */,
-				57ED4DEA1CF24919008F1CD3 /* ViewController.swift */,
-				5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */,
-				57D90E811CF2598C00410284 /* TheListViewController.swift */,
-				9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */,
-				57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */,
-				57C9BAF91CF7F03B00B11F01 /* Card.swift */,
-				57C9BAFB1CF7F21600B11F01 /* CardManager.swift */,
-				5762B56C1CF2765B002CF248 /* instructions.html */,
-				57ED4DEC1CF24919008F1CD3 /* Main.storyboard */,
-				57ED4DF11CF24919008F1CD3 /* LaunchScreen.storyboard */,
-				57ED4DF41CF24919008F1CD3 /* Info.plist */,
 				57ED4DEF1CF24919008F1CD3 /* Assets.xcassets */,
 			);
 			path = Penisland;
@@ -145,10 +305,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998B24931D86236A00B65BAA /* never_have_i_ever.png in Resources */,
+				998B24901D86236A00B65BAA /* lip_sync_star.png in Resources */,
+				998B24A01D86236A00B65BAA /* the_wormhole.png in Resources */,
+				998B24941D86236A00B65BAA /* oddly_inspirational.png in Resources */,
+				998B24961D86236A00B65BAA /* president_trump.png in Resources */,
+				998B249C1D86236A00B65BAA /* the_cult_leader.png in Resources */,
+				998B24A11D86236A00B65BAA /* trivia.png in Resources */,
+				998B24A31D86236A00B65BAA /* glamour_shots.png in Resources */,
+				998B24A81D86236A00B65BAA /* the_text_master.png in Resources */,
+				998B24851D86236A00B65BAA /* bad_categories.png in Resources */,
+				998B24921D86236A00B65BAA /* name_master.png in Resources */,
+				998B24A21D86236A00B65BAA /* tunes_master.png in Resources */,
+				998B248E1D86236A00B65BAA /* human_pictionary.png in Resources */,
+				998B24981D86236A00B65BAA /* question_master.png in Resources */,
+				998B24911D86236A00B65BAA /* make_a_rule.png in Resources */,
+				998B24A51D86236A00B65BAA /* mime.png in Resources */,
+				998B24841D86236A00B65BAA /* admission_of_guilt.png in Resources */,
+				998B24A71D86236A00B65BAA /* the_prisoners_dilemma.png in Resources */,
+				998B248F1D86236A00B65BAA /* lick_slap_fondle.png in Resources */,
+				998B24AA1D86236A00B65BAA /* accents.png in Resources */,
 				57ED4DF31CF24919008F1CD3 /* LaunchScreen.storyboard in Resources */,
+				998B248A1D86236A00B65BAA /* distorted_reality.png in Resources */,
+				998B249E1D86236A00B65BAA /* the_sneaky_texter.png in Resources */,
+				998B24991D86236A00B65BAA /* snapchat_paparazzi.png in Resources */,
+				998B24861D86236A00B65BAA /* bang_marry_kill.png in Resources */,
+				998B24881D86236A00B65BAA /* dancing_fool.png in Resources */,
+				998B24891D86236A00B65BAA /* dare.png in Resources */,
 				5762B56D1CF2765B002CF248 /* instructions.html in Resources */,
+				998B24831D86236A00B65BAA /* would_you_rather.png in Resources */,
+				998B249A1D86236A00B65BAA /* survivor.png in Resources */,
+				998B24951D86236A00B65BAA /* penisland_pen15club.png in Resources */,
+				998B249F1D86236A00B65BAA /* the_toast.png in Resources */,
+				998B248C1D86236A00B65BAA /* go_back_15_spaces.png in Resources */,
+				998B249D1D86236A00B65BAA /* the_roast.png in Resources */,
+				998B248D1D86236A00B65BAA /* house_special.png in Resources */,
+				998B24A41D86236A00B65BAA /* jail.png in Resources */,
+				998B24971D86236A00B65BAA /* quarantine.png in Resources */,
 				57ED4DF01CF24919008F1CD3 /* Assets.xcassets in Resources */,
+				998B249B1D86236A00B65BAA /* take_a_trip.png in Resources */,
+				998B248B1D86236A00B65BAA /* emoji_butt_text.png in Resources */,
 				57ED4DEE1CF24919008F1CD3 /* Main.storyboard in Resources */,
+				998B24A91D86236A00B65BAA /* the_trolls.png in Resources */,
+				998B24871D86236A00B65BAA /* beverage_butler.png in Resources */,
+				998B24A61D86236A00B65BAA /* the_most_likely_to.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
