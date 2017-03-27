@@ -14,8 +14,8 @@ class TheListDetailViewController: UIViewController {
     @IBOutlet weak var rulesRandomizer: UIButton!
     @IBOutlet weak var cardImage: UIImageView!
     
-    @IBAction func rightSwipe(sender: AnyObject) {
-        self.navigationController?.popViewControllerAnimated(true)
+    @IBAction func rightSwipe(_ sender: AnyObject) {
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func showAlert() {
@@ -23,22 +23,22 @@ class TheListDetailViewController: UIViewController {
         let randomIndex = Int(arc4random_uniform(UInt32((myCard?.rules!.count)!)))
         let randomItem = myCard?.rules![randomIndex]
         
-        let alertController = UIAlertController(title: "Generate Random", message: randomItem, preferredStyle: .Alert)
-        let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
+        let alertController = UIAlertController(title: "Generate Random", message: randomItem, preferredStyle: .alert)
+        let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
         alertController.addAction(defaultAction)
-        presentViewController(alertController, animated: true, completion: nil)
+        present(alertController, animated: true, completion: nil)
     }
     
     var myCard: Card? {
         didSet {
             fillViewsWithCard()
             if myCard?.rules == nil {
-                rulesRandomizer.hidden = true
+                rulesRandomizer.isHidden = true
             }
         }
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
     

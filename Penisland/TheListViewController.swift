@@ -15,22 +15,22 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
     
         let backView = UIView.init(frame: CGRect(x: 0,y: 0,width: 10,height: 20))
         let imageView = UIImageView(image: UIImage(named: "SmallLogo"))
-        imageView.frame = CGRectMake(4, 5, imageView.frame.size.width, imageView.frame.size.width)
+        imageView.frame = CGRect(x: 4, y: 5, width: imageView.frame.size.width, height: imageView.frame.size.width)
         backView.addSubview(imageView)
         self.navigationItem.titleView = imageView
     }
     
     // TableView Delegate and Datasource
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return CardManager.allCards.count
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // Designs the cell *could be subclassed*
-        let cell = UITableViewCell(style:UITableViewCellStyle.Default, reuseIdentifier:"cell")
+        let cell = UITableViewCell(style:UITableViewCellStyle.default, reuseIdentifier:"cell")
         cell.layer.borderWidth = 2.0
-        cell.layer.borderColor = UIColor.blackColor().CGColor
+        cell.layer.borderColor = UIColor.black.cgColor
         cell.accessoryView =  UIImageView.init(image: UIImage(named: "menu dots icon"))
         
         // Displays flash icons on the random generate ones
@@ -42,18 +42,18 @@ class TheListViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
     
-    func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let thisCard = CardManager.allCards[indexPath.row]
         cell.textLabel?.text = thisCard.title
         cell.textLabel?.backgroundColor = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.00)
         cell.contentView.backgroundColor = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.00)
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedCard = CardManager.allCards[indexPath.row]
         
         print("Selected ", selectedCard.title)
-        let detailViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("details") as! TheListDetailViewController
+        let detailViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "details") as! TheListDetailViewController
         detailViewController.myCard = selectedCard
         self.navigationController?.pushViewController(detailViewController, animated: true)
     }

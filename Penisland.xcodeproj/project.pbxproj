@@ -278,7 +278,7 @@
 					57ED4DE41CF24919008F1CD3 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = U6J9N2F6E2;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -491,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.Penisland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -507,7 +507,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.Penisland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

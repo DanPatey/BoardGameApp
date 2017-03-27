@@ -15,10 +15,10 @@ class InstructionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let htmlFile = NSBundle.mainBundle().pathForResource("instructions", ofType: "html") {
-            if let htmlData = NSData(contentsOfFile: htmlFile) {
-                let baseURL = NSURL(fileURLWithPath: NSBundle.mainBundle().bundlePath)
-                webView.loadData(htmlData, MIMEType: "text/html", textEncodingName: "UTF-8", baseURL: baseURL)
+        if let htmlFile = Bundle.main.path(forResource: "instructions", ofType: "html") {
+            if let htmlData = try? Data(contentsOf: URL(fileURLWithPath: htmlFile)) {
+                let baseURL = URL(fileURLWithPath: Bundle.main.bundlePath)
+                webView.load(htmlData, mimeType: "text/html", textEncodingName: "UTF-8", baseURL: baseURL)
             }
         }
     }
