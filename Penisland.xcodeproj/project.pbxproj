@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5762B56D1CF2765B002CF248 /* instructions.html in Resources */ = {isa = PBXBuildFile; fileRef = 5762B56C1CF2765B002CF248 /* instructions.html */; };
 		5762B56F1CF27AFD002CF248 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */; };
+		57B236F21E9D868300A6BD3A /* CardManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B236F11E9D868300A6BD3A /* CardManagerTests.swift */; };
+		57B237021E9DA6DA00A6BD3A /* PenislandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B237011E9DA6DA00A6BD3A /* PenislandUITests.swift */; };
 		57C9BAF81CF7EE9C00B11F01 /* TheListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */; };
 		57C9BAFA1CF7F03B00B11F01 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9BAF91CF7F03B00B11F01 /* Card.swift */; };
 		57C9BAFC1CF7F21600B11F01 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C9BAFB1CF7F21600B11F01 /* CardManager.swift */; };
@@ -61,9 +63,32 @@
 		9996A9651D5FE59D006C6DEE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9996A9641D5FE59D006C6DEE /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		57B236E91E9D7F9E00A6BD3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57ED4DDD1CF24919008F1CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57ED4DE41CF24919008F1CD3;
+			remoteInfo = Penisland;
+		};
+		57B237041E9DA6DA00A6BD3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57ED4DDD1CF24919008F1CD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57ED4DE41CF24919008F1CD3;
+			remoteInfo = Penisland;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		5762B56C1CF2765B002CF248 /* instructions.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = instructions.html; sourceTree = "<group>"; };
 		5762B56E1CF27AFD002CF248 /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		57B236E41E9D7F9E00A6BD3A /* PenislandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenislandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B236E81E9D7F9E00A6BD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B236F11E9D868300A6BD3A /* CardManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardManagerTests.swift; sourceTree = "<group>"; };
+		57B236FF1E9DA6DA00A6BD3A /* PenislandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenislandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B237011E9DA6DA00A6BD3A /* PenislandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenislandUITests.swift; sourceTree = "<group>"; };
+		57B237031E9DA6DA00A6BD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57C9BAF71CF7EE9C00B11F01 /* TheListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheListDetailViewController.swift; sourceTree = "<group>"; };
 		57C9BAF91CF7F03B00B11F01 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		57C9BAFB1CF7F21600B11F01 /* CardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
@@ -119,6 +144,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		57B236E11E9D7F9E00A6BD3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B236FC1E9DA6DA00A6BD3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57ED4DE21CF24919008F1CD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,10 +254,54 @@
 			path = CardImages;
 			sourceTree = "<group>";
 		};
+		57B236E51E9D7F9E00A6BD3A /* PenislandTests */ = {
+			isa = PBXGroup;
+			children = (
+				57B236EF1E9D82ED00A6BD3A /* Cases */,
+				57B236F01E9D82EF00A6BD3A /* Data */,
+				57B236EE1E9D82EA00A6BD3A /* Supporting Files */,
+			);
+			path = PenislandTests;
+			sourceTree = "<group>";
+		};
+		57B236EE1E9D82EA00A6BD3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B236E81E9D7F9E00A6BD3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57B236EF1E9D82ED00A6BD3A /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				57B236F11E9D868300A6BD3A /* CardManagerTests.swift */,
+			);
+			name = Cases;
+			sourceTree = "<group>";
+		};
+		57B236F01E9D82EF00A6BD3A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		57B237001E9DA6DA00A6BD3A /* PenislandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57B237011E9DA6DA00A6BD3A /* PenislandUITests.swift */,
+				57B237031E9DA6DA00A6BD3A /* Info.plist */,
+			);
+			path = PenislandUITests;
+			sourceTree = "<group>";
+		};
 		57ED4DDC1CF24919008F1CD3 = {
 			isa = PBXGroup;
 			children = (
 				57ED4DE71CF24919008F1CD3 /* Penisland */,
+				57B236E51E9D7F9E00A6BD3A /* PenislandTests */,
+				57B237001E9DA6DA00A6BD3A /* PenislandUITests */,
 				57ED4DE61CF24919008F1CD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -227,6 +310,8 @@
 			isa = PBXGroup;
 			children = (
 				57ED4DE51CF24919008F1CD3 /* Penisland.app */,
+				57B236E41E9D7F9E00A6BD3A /* PenislandTests.xctest */,
+				57B236FF1E9DA6DA00A6BD3A /* PenislandUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,6 +333,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		57B236E31E9D7F9E00A6BD3A /* PenislandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B236ED1E9D7F9E00A6BD3A /* Build configuration list for PBXNativeTarget "PenislandTests" */;
+			buildPhases = (
+				57B236E01E9D7F9E00A6BD3A /* Sources */,
+				57B236E11E9D7F9E00A6BD3A /* Frameworks */,
+				57B236E21E9D7F9E00A6BD3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B236EA1E9D7F9E00A6BD3A /* PBXTargetDependency */,
+			);
+			name = PenislandTests;
+			productName = PenislandTests;
+			productReference = 57B236E41E9D7F9E00A6BD3A /* PenislandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57B236FE1E9DA6DA00A6BD3A /* PenislandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B237061E9DA6DA00A6BD3A /* Build configuration list for PBXNativeTarget "PenislandUITests" */;
+			buildPhases = (
+				57B236FB1E9DA6DA00A6BD3A /* Sources */,
+				57B236FC1E9DA6DA00A6BD3A /* Frameworks */,
+				57B236FD1E9DA6DA00A6BD3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B237051E9DA6DA00A6BD3A /* PBXTargetDependency */,
+			);
+			name = PenislandUITests;
+			productName = PenislandUITests;
+			productReference = 57B236FF1E9DA6DA00A6BD3A /* PenislandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		57ED4DE41CF24919008F1CD3 /* Penisland */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57ED4DF71CF24919008F1CD3 /* Build configuration list for PBXNativeTarget "Penisland" */;
@@ -271,10 +392,23 @@
 		57ED4DDD1CF24919008F1CD3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Dan Patey";
 				TargetAttributes = {
+					57B236E31E9D7F9E00A6BD3A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = U6J9N2F6E2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57ED4DE41CF24919008F1CD3;
+					};
+					57B236FE1E9DA6DA00A6BD3A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = U6J9N2F6E2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57ED4DE41CF24919008F1CD3;
+					};
 					57ED4DE41CF24919008F1CD3 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = U6J9N2F6E2;
@@ -296,11 +430,27 @@
 			projectRoot = "";
 			targets = (
 				57ED4DE41CF24919008F1CD3 /* Penisland */,
+				57B236E31E9D7F9E00A6BD3A /* PenislandTests */,
+				57B236FE1E9DA6DA00A6BD3A /* PenislandUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		57B236E21E9D7F9E00A6BD3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B236FD1E9DA6DA00A6BD3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57ED4DE31CF24919008F1CD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +505,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		57B236E01E9D7F9E00A6BD3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B236F21E9D868300A6BD3A /* CardManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B236FB1E9DA6DA00A6BD3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B237021E9DA6DA00A6BD3A /* PenislandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57ED4DE11CF24919008F1CD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,6 +537,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B236EA1E9D7F9E00A6BD3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57ED4DE41CF24919008F1CD3 /* Penisland */;
+			targetProxy = 57B236E91E9D7F9E00A6BD3A /* PBXContainerItemProxy */;
+		};
+		57B237051E9DA6DA00A6BD3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57ED4DE41CF24919008F1CD3 /* Penisland */;
+			targetProxy = 57B237041E9DA6DA00A6BD3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		57ED4DEC1CF24919008F1CD3 /* Main.storyboard */ = {
@@ -392,6 +571,77 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		57B236EB1E9D7F9E00A6BD3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = U6J9N2F6E2;
+				INFOPLIST_FILE = PenislandTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danpatey.PenislandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penisland.app/Penisland";
+			};
+			name = Debug;
+		};
+		57B236EC1E9D7F9E00A6BD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = U6J9N2F6E2;
+				INFOPLIST_FILE = PenislandTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danpatey.PenislandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penisland.app/Penisland";
+			};
+			name = Release;
+		};
+		57B237071E9DA6DA00A6BD3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = U6J9N2F6E2;
+				INFOPLIST_FILE = PenislandUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danpatey.PenislandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Penisland;
+			};
+			name = Debug;
+		};
+		57B237081E9DA6DA00A6BD3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = U6J9N2F6E2;
+				INFOPLIST_FILE = PenislandUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danpatey.PenislandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Penisland;
+			};
+			name = Release;
+		};
 		57ED4DF51CF24919008F1CD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -515,6 +765,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		57B236ED1E9D7F9E00A6BD3A /* Build configuration list for PBXNativeTarget "PenislandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B236EB1E9D7F9E00A6BD3A /* Debug */,
+				57B236EC1E9D7F9E00A6BD3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57B237061E9DA6DA00A6BD3A /* Build configuration list for PBXNativeTarget "PenislandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B237071E9DA6DA00A6BD3A /* Debug */,
+				57B237081E9DA6DA00A6BD3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		57ED4DE01CF24919008F1CD3 /* Build configuration list for PBXProject "Penisland" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

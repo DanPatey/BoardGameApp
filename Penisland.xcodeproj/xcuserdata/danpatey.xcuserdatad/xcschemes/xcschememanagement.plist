@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>PenIslandAllTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>PenIslandUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Penisland.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>57B236E31E9D7F9E00A6BD3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57B236FE1E9DA6DA00A6BD3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>57ED4DE41CF24919008F1CD3</key>
 		<dict>
 			<key>primary</key>
